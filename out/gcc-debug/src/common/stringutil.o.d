@@ -1,0 +1,25 @@
+/home/netarchlab/omnetpp-5.5.1/out/gcc-debug/src/common/stringutil.o: \
+ stringutil.cc \
+ /home/netarchlab/omnetpp-5.5.1/include/omnetpp/platdep/platmisc.h \
+ /home/netarchlab/omnetpp-5.5.1/include/omnetpp/platdep/platdefs.h \
+ commonutil.h commondefs.h \
+ /home/netarchlab/omnetpp-5.5.1/include/omnetpp/platdep/platdefs.h \
+ exception.h opp_ctype.h stringutil.h stringtokenizer.h
+
+/home/netarchlab/omnetpp-5.5.1/include/omnetpp/platdep/platmisc.h:
+
+/home/netarchlab/omnetpp-5.5.1/include/omnetpp/platdep/platdefs.h:
+
+commonutil.h:
+
+commondefs.h:
+
+/home/netarchlab/omnetpp-5.5.1/include/omnetpp/platdep/platdefs.h:
+
+exception.h:
+
+opp_ctype.h:
+
+stringutil.h:
+
+stringtokenizer.h:

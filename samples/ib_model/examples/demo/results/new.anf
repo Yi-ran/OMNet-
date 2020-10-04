@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="*.vec"/>
+    <inputs name="*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="inputQueueLength demo_network.SW_1.port[1].ibuf">
+      <items xsi:type="scave:Add" filterPattern="module(demo_network.SW_1.port[1].ibuf) AND name(inputQueueLength)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="inputQueueLength demo_network.SW_1.port[1].ibuf"/>
+    </datasets>
+  </datasets>
+  <chartSheets/>
+</scave:Analysis>

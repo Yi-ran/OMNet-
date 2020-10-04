@@ -1,0 +1,1301 @@
+file 718116 1590495544                                          
+version 2
+run General-0-20200526-20:17:28-194745
+attr configname General
+attr datetime 20200526-20:17:28
+attr experiment General
+attr inifile examples/evaluation_fattree128/fat-tree-rrcc.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network ib_model.examples.evaluation_fattree128.fat_tree_128
+attr processid 194745
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.servers[0].srcLid 1
+param **.servers[1].srcLid 2
+param **.servers[2].srcLid 3
+param **.servers[3].srcLid 4
+param **.servers[4].srcLid 5
+param **.servers[5].srcLid 6
+param **.servers[6].srcLid 7
+param **.servers[7].srcLid 8
+param **.servers[8].srcLid 9
+param **.servers[9].srcLid 10
+param **.servers[10].srcLid 11
+param **.servers[11].srcLid 12
+param **.servers[12].srcLid 13
+param **.servers[13].srcLid 14
+param **.servers[14].srcLid 15
+param **.servers[15].srcLid 16
+param **.servers[16].srcLid 17
+param **.servers[17].srcLid 18
+param **.servers[18].srcLid 19
+param **.servers[19].srcLid 20
+param **.servers[20].srcLid 21
+param **.servers[21].srcLid 22
+param **.servers[22].srcLid 23
+param **.servers[23].srcLid 24
+param **.servers[24].srcLid 25
+param **.servers[25].srcLid 26
+param **.servers[26].srcLid 27
+param **.servers[27].srcLid 28
+param **.servers[28].srcLid 29
+param **.servers[29].srcLid 30
+param **.servers[30].srcLid 31
+param **.servers[31].srcLid 32
+param **.servers[32].srcLid 33
+param **.servers[33].srcLid 34
+param **.servers[34].srcLid 35
+param **.servers[35].srcLid 36
+param **.servers[36].srcLid 37
+param **.servers[37].srcLid 38
+param **.servers[38].srcLid 39
+param **.servers[39].srcLid 40
+param **.servers[40].srcLid 41
+param **.servers[41].srcLid 42
+param **.servers[42].srcLid 43
+param **.servers[43].srcLid 44
+param **.servers[44].srcLid 45
+param **.servers[45].srcLid 46
+param **.servers[46].srcLid 47
+param **.servers[47].srcLid 48
+param **.servers[48].srcLid 49
+param **.servers[49].srcLid 50
+param **.servers[50].srcLid 51
+param **.servers[51].srcLid 52
+param **.servers[52].srcLid 53
+param **.servers[53].srcLid 54
+param **.servers[54].srcLid 55
+param **.servers[55].srcLid 56
+param **.servers[56].srcLid 57
+param **.servers[57].srcLid 58
+param **.servers[58].srcLid 59
+param **.servers[59].srcLid 60
+param **.servers[60].srcLid 61
+param **.servers[61].srcLid 62
+param **.servers[62].srcLid 63
+param **.servers[63].srcLid 64
+param **.servers[64].srcLid 65
+param **.servers[65].srcLid 66
+param **.servers[66].srcLid 67
+param **.servers[67].srcLid 68
+param **.servers[68].srcLid 69
+param **.servers[69].srcLid 70
+param **.servers[70].srcLid 71
+param **.servers[71].srcLid 72
+param **.servers[72].srcLid 73
+param **.servers[73].srcLid 74
+param **.servers[74].srcLid 75
+param **.servers[75].srcLid 76
+param **.servers[76].srcLid 77
+param **.servers[77].srcLid 78
+param **.servers[78].srcLid 79
+param **.servers[79].srcLid 80
+param **.servers[80].srcLid 81
+param **.servers[81].srcLid 82
+param **.servers[82].srcLid 83
+param **.servers[83].srcLid 84
+param **.servers[84].srcLid 85
+param **.servers[85].srcLid 86
+param **.servers[86].srcLid 87
+param **.servers[87].srcLid 88
+param **.servers[88].srcLid 89
+param **.servers[89].srcLid 90
+param **.servers[90].srcLid 91
+param **.servers[91].srcLid 92
+param **.servers[92].srcLid 93
+param **.servers[93].srcLid 94
+param **.servers[94].srcLid 95
+param **.servers[95].srcLid 96
+param **.servers[96].srcLid 97
+param **.servers[97].srcLid 98
+param **.servers[98].srcLid 99
+param **.servers[99].srcLid 100
+param **.servers[100].srcLid 101
+param **.servers[101].srcLid 102
+param **.servers[102].srcLid 103
+param **.servers[103].srcLid 104
+param **.servers[104].srcLid 105
+param **.servers[105].srcLid 106
+param **.servers[106].srcLid 107
+param **.servers[107].srcLid 108
+param **.servers[108].srcLid 109
+param **.servers[109].srcLid 110
+param **.servers[110].srcLid 111
+param **.servers[111].srcLid 112
+param **.servers[112].srcLid 113
+param **.servers[113].srcLid 114
+param **.servers[114].srcLid 115
+param **.servers[115].srcLid 116
+param **.servers[116].srcLid 117
+param **.servers[117].srcLid 118
+param **.servers[118].srcLid 119
+param **.servers[119].srcLid 120
+param **.servers[120].srcLid 121
+param **.servers[121].srcLid 122
+param **.servers[122].srcLid 123
+param **.servers[123].srcLid 124
+param **.servers[124].srcLid 125
+param **.servers[125].srcLid 126
+param **.servers[126].srcLid 127
+param **.servers[127].srcLid 128
+param **.flitSize 2048B
+param **.width 4
+param **.speed 10Gbps
+param **.maxVL 1
+param **.sink.hiccupDuration 0.001us
+param **.sink.hiccupDelay 10000us
+param **.sink.repFirstPackets 0
+param **.obuf.credMinTime 4.096us
+param **H_**.obuf.size 5
+param **.ibuf.lossyMode false
+param **.ISWDelay 50ns
+param **.VSWDelay 50ns
+param **SW**.vlarb.coreFreq 1200MHz
+param **H_**.vlarb.coreFreq 1000MHz
+param **SW**.vlarb.busWidth 24B
+param **H_**.vlarb.busWidth 16B
+param **.vlarb.vlHighLimit 16
+param **.vlarb.highVLArbEntries "\"0:1 1:20 2:40 3:80\""
+param **.vlarb.lowVLArbEntries "\"0:1 1:20 2:40 3:80\""
+param **.vlarb.useFCFSRQArb false
+param **.pktfwd.AdaptMode "\"none\""
+param **.pktfwd.LIDBindTime 2us
+param **.pktfwd.TQBusy1Thd 20
+param **.pktfwd.TQBusy2Thd 40
+param **.pktfwd.TQBusy3Thd 80
+param **.pktfwd.ARAdaptThd 4
+param **.pktfwd.OPSelAlgo "\"greedy\""
+param **.pktfwd.GreedyRandSize 3
+param **.pktfwd.statRepTime 10us
+param **.pktfwd.OPSelOffsetByDLID 0
+param **.L1_switches[0]**.fdbIndex 0
+param **.L1_switches[1]**.fdbIndex 1
+param **.L1_switches[2]**.fdbIndex 2
+param **.L1_switches[3]**.fdbIndex 3
+param **.L1_switches[4]**.fdbIndex 4
+param **.L1_switches[5]**.fdbIndex 5
+param **.L1_switches[6]**.fdbIndex 6
+param **.L1_switches[7]**.fdbIndex 7
+param **.L1_switches[8]**.fdbIndex 8
+param **.L1_switches[9]**.fdbIndex 9
+param **.L1_switches[10]**.fdbIndex 10
+param **.L1_switches[11]**.fdbIndex 11
+param **.L1_switches[12]**.fdbIndex 12
+param **.L1_switches[13]**.fdbIndex 13
+param **.L1_switches[14]**.fdbIndex 14
+param **.L1_switches[15]**.fdbIndex 15
+param **.L1_switches[16]**.fdbIndex 16
+param **.L1_switches[17]**.fdbIndex 17
+param **.L1_switches[18]**.fdbIndex 18
+param **.L1_switches[19]**.fdbIndex 19
+param **.L1_switches[20]**.fdbIndex 20
+param **.L1_switches[21]**.fdbIndex 21
+param **.L1_switches[22]**.fdbIndex 22
+param **.L1_switches[23]**.fdbIndex 23
+param **.L1_switches[24]**.fdbIndex 24
+param **.L1_switches[25]**.fdbIndex 25
+param **.L1_switches[26]**.fdbIndex 26
+param **.L1_switches[27]**.fdbIndex 27
+param **.L1_switches[28]**.fdbIndex 28
+param **.L1_switches[29]**.fdbIndex 29
+param **.L1_switches[30]**.fdbIndex 30
+param **.L1_switches[31]**.fdbIndex 31
+param **.L2_switches[0]**.fdbIndex 32
+param **.L2_switches[1]**.fdbIndex 33
+param **.L2_switches[2]**.fdbIndex 34
+param **.L2_switches[3]**.fdbIndex 35
+param **.L2_switches[4]**.fdbIndex 36
+param **.L2_switches[5]**.fdbIndex 37
+param **.L2_switches[6]**.fdbIndex 38
+param **.L2_switches[7]**.fdbIndex 39
+param **.L2_switches[8]**.fdbIndex 40
+param **.L2_switches[9]**.fdbIndex 41
+param **.L2_switches[10]**.fdbIndex 42
+param **.L2_switches[11]**.fdbIndex 43
+param **.L2_switches[12]**.fdbIndex 44
+param **.L2_switches[13]**.fdbIndex 45
+param **.L2_switches[14]**.fdbIndex 46
+param **.L2_switches[15]**.fdbIndex 47
+param **.L2_switches[16]**.fdbIndex 48
+param **.L2_switches[17]**.fdbIndex 49
+param **.L2_switches[18]**.fdbIndex 50
+param **.L2_switches[19]**.fdbIndex 51
+param **.L2_switches[20]**.fdbIndex 52
+param **.L2_switches[21]**.fdbIndex 53
+param **.L2_switches[22]**.fdbIndex 54
+param **.L2_switches[23]**.fdbIndex 55
+param **.L2_switches[24]**.fdbIndex 56
+param **.L2_switches[25]**.fdbIndex 57
+param **.L2_switches[26]**.fdbIndex 58
+param **.L2_switches[27]**.fdbIndex 59
+param **.L2_switches[28]**.fdbIndex 60
+param **.L2_switches[29]**.fdbIndex 61
+param **.L2_switches[30]**.fdbIndex 62
+param **.L2_switches[31]**.fdbIndex 63
+param **.L3_switches[0]**.fdbIndex 64
+param **.L3_switches[1]**.fdbIndex 65
+param **.L3_switches[2]**.fdbIndex 66
+param **.L3_switches[3]**.fdbIndex 67
+param **.L3_switches[4]**.fdbIndex 68
+param **.L3_switches[5]**.fdbIndex 69
+param **.L3_switches[6]**.fdbIndex 70
+param **.L3_switches[7]**.fdbIndex 71
+param **.L3_switches[8]**.fdbIndex 72
+param **.L3_switches[9]**.fdbIndex 73
+param **.L3_switches[10]**.fdbIndex 74
+param **.L3_switches[11]**.fdbIndex 75
+param **.L3_switches[12]**.fdbIndex 76
+param **.L3_switches[13]**.fdbIndex 77
+param **.L3_switches[14]**.fdbIndex 78
+param **.L3_switches[15]**.fdbIndex 79
+param **.servers[97]**.dstLid 117
+param **.servers[97].app.msgLength 4194304B
+param **.servers[97].app.msgNum 5
+param **.servers[97].app.msg2msgGap 1ns
+param **.servers[97].**.on_average_throughput 1
+param **.servers[97]**.startTime 0.005000
+param **.servers[97]**.endTime 0.025000
+param **.servers[97].gen.on_newcc 1
+param **.servers[116].sink.on_newcc 1
+param **.servers[97].sink.on_newcc 1
+param **.servers[116].gen.on_newcc 1
+param **.servers[116]**.on_utilization 1
+param **.servers[61]**.dstLid 105
+param **.servers[61].app.msgLength 4194304B
+param **.servers[61].app.msgNum 5
+param **.servers[61].app.msg2msgGap 1ns
+param **.servers[61].**.on_average_throughput 1
+param **.servers[61]**.startTime 0.005000
+param **.servers[61]**.endTime 0.025000
+param **.servers[61].gen.on_newcc 1
+param **.servers[104].sink.on_newcc 1
+param **.servers[61].sink.on_newcc 1
+param **.servers[104].gen.on_newcc 1
+param **.servers[104]**.on_utilization 1
+param **.servers[91]**.dstLid 40
+param **.servers[91].app.msgLength 4194304B
+param **.servers[91].app.msgNum 5
+param **.servers[91].app.msg2msgGap 1ns
+param **.servers[91].**.on_average_throughput 1
+param **.servers[91]**.startTime 0.005000
+param **.servers[91]**.endTime 0.025000
+param **.servers[91].gen.on_newcc 1
+param **.servers[39].sink.on_newcc 1
+param **.servers[91].sink.on_newcc 1
+param **.servers[39].gen.on_newcc 1
+param **.servers[39]**.on_utilization 1
+param **.servers[1]**.dstLid 27
+param **.servers[1].app.msgLength 4194304B
+param **.servers[1].app.msgNum 5
+param **.servers[1].app.msg2msgGap 1ns
+param **.servers[1].**.on_average_throughput 1
+param **.servers[1]**.startTime 0.005000
+param **.servers[1]**.endTime 0.025000
+param **.servers[1].gen.on_newcc 1
+param **.servers[26].sink.on_newcc 1
+param **.servers[1].sink.on_newcc 1
+param **.servers[26].gen.on_newcc 1
+param **.servers[26]**.on_utilization 1
+param **.servers[115]**.dstLid 27
+param **.servers[115].app.msgLength 4194304B
+param **.servers[115].app.msgNum 5
+param **.servers[115].app.msg2msgGap 1ns
+param **.servers[115].**.on_average_throughput 1
+param **.servers[115]**.startTime 0.005000
+param **.servers[115]**.endTime 0.025000
+param **.servers[115].gen.on_newcc 1
+param **.servers[26].sink.on_newcc 1
+param **.servers[115].sink.on_newcc 1
+param **.servers[26].gen.on_newcc 1
+param **.servers[26]**.on_utilization 1
+param **.servers[114]**.dstLid 40
+param **.servers[114].app.msgLength 4194304B
+param **.servers[114].app.msgNum 5
+param **.servers[114].app.msg2msgGap 1ns
+param **.servers[114].**.on_average_throughput 1
+param **.servers[114]**.startTime 0.005000
+param **.servers[114]**.endTime 0.025000
+param **.servers[114].gen.on_newcc 1
+param **.servers[39].sink.on_newcc 1
+param **.servers[114].sink.on_newcc 1
+param **.servers[39].gen.on_newcc 1
+param **.servers[39]**.on_utilization 1
+param **.servers[75]**.dstLid 71
+param **.servers[75].app.msgLength 4194304B
+param **.servers[75].app.msgNum 5
+param **.servers[75].app.msg2msgGap 1ns
+param **.servers[75].**.on_average_throughput 1
+param **.servers[75]**.startTime 0.005000
+param **.servers[75]**.endTime 0.025000
+param **.servers[75].gen.on_newcc 1
+param **.servers[70].sink.on_newcc 1
+param **.servers[75].sink.on_newcc 1
+param **.servers[70].gen.on_newcc 1
+param **.servers[70]**.on_utilization 1
+param **.servers[3]**.dstLid 16
+param **.servers[3].app.msgLength 4194304B
+param **.servers[3].app.msgNum 5
+param **.servers[3].app.msg2msgGap 1ns
+param **.servers[3].**.on_average_throughput 1
+param **.servers[3]**.startTime 0.005000
+param **.servers[3]**.endTime 0.025000
+param **.servers[3].gen.on_newcc 1
+param **.servers[15].sink.on_newcc 1
+param **.servers[3].sink.on_newcc 1
+param **.servers[15].gen.on_newcc 1
+param **.servers[15]**.on_utilization 1
+param **.servers[85]**.dstLid 117
+param **.servers[85].app.msgLength 4194304B
+param **.servers[85].app.msgNum 5
+param **.servers[85].app.msg2msgGap 1ns
+param **.servers[85].**.on_average_throughput 1
+param **.servers[85]**.startTime 0.005000
+param **.servers[85]**.endTime 0.025000
+param **.servers[85].gen.on_newcc 1
+param **.servers[116].sink.on_newcc 1
+param **.servers[85].sink.on_newcc 1
+param **.servers[116].gen.on_newcc 1
+param **.servers[116]**.on_utilization 1
+param **.servers[25]**.dstLid 90
+param **.servers[25].app.msgLength 4194304B
+param **.servers[25].app.msgNum 5
+param **.servers[25].app.msg2msgGap 1ns
+param **.servers[25].**.on_average_throughput 1
+param **.servers[25]**.startTime 0.005000
+param **.servers[25]**.endTime 0.025000
+param **.servers[25].gen.on_newcc 1
+param **.servers[89].sink.on_newcc 1
+param **.servers[25].sink.on_newcc 1
+param **.servers[89].gen.on_newcc 1
+param **.servers[89]**.on_utilization 1
+param **.servers[42]**.dstLid 105
+param **.servers[42].app.msgLength 4194304B
+param **.servers[42].app.msgNum 5
+param **.servers[42].app.msg2msgGap 1ns
+param **.servers[42].**.on_average_throughput 1
+param **.servers[42]**.startTime 0.005000
+param **.servers[42]**.endTime 0.025000
+param **.servers[42].gen.on_newcc 1
+param **.servers[104].sink.on_newcc 1
+param **.servers[42].sink.on_newcc 1
+param **.servers[104].gen.on_newcc 1
+param **.servers[104]**.on_utilization 1
+param **.servers[31]**.dstLid 40
+param **.servers[31].app.msgLength 4194304B
+param **.servers[31].app.msgNum 5
+param **.servers[31].app.msg2msgGap 1ns
+param **.servers[31].**.on_average_throughput 1
+param **.servers[31]**.startTime 0.005000
+param **.servers[31]**.endTime 0.025000
+param **.servers[31].gen.on_newcc 1
+param **.servers[39].sink.on_newcc 1
+param **.servers[31].sink.on_newcc 1
+param **.servers[39].gen.on_newcc 1
+param **.servers[39]**.on_utilization 1
+param **.servers[53]**.dstLid 117
+param **.servers[53].app.msgLength 4194304B
+param **.servers[53].app.msgNum 5
+param **.servers[53].app.msg2msgGap 1ns
+param **.servers[53].**.on_average_throughput 1
+param **.servers[53]**.startTime 0.005000
+param **.servers[53]**.endTime 0.025000
+param **.servers[53].gen.on_newcc 1
+param **.servers[116].sink.on_newcc 1
+param **.servers[53].sink.on_newcc 1
+param **.servers[116].gen.on_newcc 1
+param **.servers[116]**.on_utilization 1
+param **.servers[33]**.dstLid 63
+param **.servers[33].app.msgLength 4194304B
+param **.servers[33].app.msgNum 5
+param **.servers[33].app.msg2msgGap 1ns
+param **.servers[33].**.on_average_throughput 1
+param **.servers[33]**.startTime 0.005000
+param **.servers[33]**.endTime 0.025000
+param **.servers[33].gen.on_newcc 1
+param **.servers[62].sink.on_newcc 1
+param **.servers[33].sink.on_newcc 1
+param **.servers[62].gen.on_newcc 1
+param **.servers[62]**.on_utilization 1
+param **.servers[67]**.dstLid 16
+param **.servers[67].app.msgLength 4194304B
+param **.servers[67].app.msgNum 5
+param **.servers[67].app.msg2msgGap 1ns
+param **.servers[67].**.on_average_throughput 1
+param **.servers[67]**.startTime 0.005000
+param **.servers[67]**.endTime 0.025000
+param **.servers[67].gen.on_newcc 1
+param **.servers[15].sink.on_newcc 1
+param **.servers[67].sink.on_newcc 1
+param **.servers[15].gen.on_newcc 1
+param **.servers[15]**.on_utilization 1
+param **.servers[11]**.dstLid 71
+param **.servers[11].app.msgLength 4194304B
+param **.servers[11].app.msgNum 5
+param **.servers[11].app.msg2msgGap 1ns
+param **.servers[11].**.on_average_throughput 1
+param **.servers[11]**.startTime 0.005000
+param **.servers[11]**.endTime 0.025000
+param **.servers[11].gen.on_newcc 1
+param **.servers[70].sink.on_newcc 1
+param **.servers[11].sink.on_newcc 1
+param **.servers[70].gen.on_newcc 1
+param **.servers[70]**.on_utilization 1
+param **.servers[69]**.dstLid 40
+param **.servers[69].app.msgLength 4194304B
+param **.servers[69].app.msgNum 5
+param **.servers[69].app.msg2msgGap 1ns
+param **.servers[69].**.on_average_throughput 1
+param **.servers[69]**.startTime 0.005000
+param **.servers[69]**.endTime 0.025000
+param **.servers[69].gen.on_newcc 1
+param **.servers[39].sink.on_newcc 1
+param **.servers[69].sink.on_newcc 1
+param **.servers[39].gen.on_newcc 1
+param **.servers[39]**.on_utilization 1
+param **.servers[105]**.dstLid 117
+param **.servers[105].app.msgLength 4194304B
+param **.servers[105].app.msgNum 5
+param **.servers[105].app.msg2msgGap 1ns
+param **.servers[105].**.on_average_throughput 1
+param **.servers[105]**.startTime 0.005000
+param **.servers[105]**.endTime 0.025000
+param **.servers[105].gen.on_newcc 1
+param **.servers[116].sink.on_newcc 1
+param **.servers[105].sink.on_newcc 1
+param **.servers[116].gen.on_newcc 1
+param **.servers[116]**.on_utilization 1
+param **.servers[40]**.dstLid 40
+param **.servers[40].app.msgLength 4194304B
+param **.servers[40].app.msgNum 5
+param **.servers[40].app.msg2msgGap 1ns
+param **.servers[40].**.on_average_throughput 1
+param **.servers[40]**.startTime 0.005000
+param **.servers[40]**.endTime 0.025000
+param **.servers[40].gen.on_newcc 1
+param **.servers[39].sink.on_newcc 1
+param **.servers[40].sink.on_newcc 1
+param **.servers[39].gen.on_newcc 1
+param **.servers[39]**.on_utilization 1
+param **.servers[10]**.dstLid 105
+param **.servers[10].app.msgLength 4194304B
+param **.servers[10].app.msgNum 5
+param **.servers[10].app.msg2msgGap 1ns
+param **.servers[10].**.on_average_throughput 1
+param **.servers[10]**.startTime 0.005000
+param **.servers[10]**.endTime 0.025000
+param **.servers[10].gen.on_newcc 1
+param **.servers[104].sink.on_newcc 1
+param **.servers[10].sink.on_newcc 1
+param **.servers[104].gen.on_newcc 1
+param **.servers[104]**.on_utilization 1
+param **.servers[120]**.dstLid 27
+param **.servers[120].app.msgLength 4194304B
+param **.servers[120].app.msgNum 5
+param **.servers[120].app.msg2msgGap 1ns
+param **.servers[120].**.on_average_throughput 1
+param **.servers[120]**.startTime 0.005000
+param **.servers[120]**.endTime 0.025000
+param **.servers[120].gen.on_newcc 1
+param **.servers[26].sink.on_newcc 1
+param **.servers[120].sink.on_newcc 1
+param **.servers[26].gen.on_newcc 1
+param **.servers[26]**.on_utilization 1
+param **.servers[16]**.dstLid 40
+param **.servers[16].app.msgLength 4194304B
+param **.servers[16].app.msgNum 5
+param **.servers[16].app.msg2msgGap 1ns
+param **.servers[16].**.on_average_throughput 1
+param **.servers[16]**.startTime 0.005000
+param **.servers[16]**.endTime 0.025000
+param **.servers[16].gen.on_newcc 1
+param **.servers[39].sink.on_newcc 1
+param **.servers[16].sink.on_newcc 1
+param **.servers[39].gen.on_newcc 1
+param **.servers[39]**.on_utilization 1
+param **.servers[123]**.dstLid 27
+param **.servers[123].app.msgLength 4194304B
+param **.servers[123].app.msgNum 5
+param **.servers[123].app.msg2msgGap 1ns
+param **.servers[123].**.on_average_throughput 1
+param **.servers[123]**.startTime 0.005000
+param **.servers[123]**.endTime 0.025000
+param **.servers[123].gen.on_newcc 1
+param **.servers[26].sink.on_newcc 1
+param **.servers[123].sink.on_newcc 1
+param **.servers[26].gen.on_newcc 1
+param **.servers[26]**.on_utilization 1
+param **.servers[56]**.dstLid 27
+param **.servers[56].app.msgLength 4194304B
+param **.servers[56].app.msgNum 5
+param **.servers[56].app.msg2msgGap 1ns
+param **.servers[56].**.on_average_throughput 1
+param **.servers[56]**.startTime 0.005000
+param **.servers[56]**.endTime 0.025000
+param **.servers[56].gen.on_newcc 1
+param **.servers[26].sink.on_newcc 1
+param **.servers[56].sink.on_newcc 1
+param **.servers[26].gen.on_newcc 1
+param **.servers[26]**.on_utilization 1
+param **.servers[0]**.dstLid 49
+param **.servers[0].app.msgLength 4096B
+param **.servers[0].app.msg2msgGap 50000ns
+param **.servers[0].app.msgNum 200
+param **.servers[0]**.startTime 0.015000
+param **.servers[0]**.endTime 0.016000
+param **.servers[2]**.dstLid 95
+param **.servers[2].app.msgLength 4096B
+param **.servers[2].app.msg2msgGap 50000ns
+param **.servers[2].app.msgNum 200
+param **.servers[2]**.startTime 0.007000
+param **.servers[2]**.endTime 0.008000
+param **.servers[4]**.dstLid 118
+param **.servers[4].app.msgLength 4096B
+param **.servers[4].app.msg2msgGap 50000ns
+param **.servers[4].app.msgNum 200
+param **.servers[4]**.startTime 0.017000
+param **.servers[4]**.endTime 0.018000
+param **.servers[5]**.dstLid 6
+param **.servers[5].app.msgLength 4096B
+param **.servers[5].app.msg2msgGap 50000ns
+param **.servers[5].app.msgNum 200
+param **.servers[5]**.startTime 0.011000
+param **.servers[5]**.endTime 0.012000
+param **.servers[6]**.dstLid 56
+param **.servers[6].app.msgLength 4096B
+param **.servers[6].app.msg2msgGap 50000ns
+param **.servers[6].app.msgNum 200
+param **.servers[6]**.startTime 0.007000
+param **.servers[6]**.endTime 0.008000
+param **.servers[7]**.dstLid 48
+param **.servers[7].app.msgLength 4096B
+param **.servers[7].app.msg2msgGap 50000ns
+param **.servers[7].app.msgNum 200
+param **.servers[7]**.startTime 0.013000
+param **.servers[7]**.endTime 0.014000
+param **.servers[8]**.dstLid 112
+param **.servers[8].app.msgLength 4096B
+param **.servers[8].app.msg2msgGap 50000ns
+param **.servers[8].app.msgNum 200
+param **.servers[8]**.startTime 0.017000
+param **.servers[8]**.endTime 0.018000
+param **.servers[9]**.dstLid 84
+param **.servers[9].app.msgLength 4096B
+param **.servers[9].app.msg2msgGap 50000ns
+param **.servers[9].app.msgNum 200
+param **.servers[9]**.startTime 0.015000
+param **.servers[9]**.endTime 0.016000
+param **.servers[12]**.dstLid 60
+param **.servers[12].app.msgLength 4096B
+param **.servers[12].app.msg2msgGap 50000ns
+param **.servers[12].app.msgNum 200
+param **.servers[12]**.startTime 0.009000
+param **.servers[12]**.endTime 0.010000
+param **.servers[13]**.dstLid 79
+param **.servers[13].app.msgLength 4096B
+param **.servers[13].app.msg2msgGap 50000ns
+param **.servers[13].app.msgNum 200
+param **.servers[13]**.startTime 0.017000
+param **.servers[13]**.endTime 0.018000
+param **.servers[14]**.dstLid 93
+param **.servers[14].app.msgLength 4096B
+param **.servers[14].app.msg2msgGap 50000ns
+param **.servers[14].app.msgNum 200
+param **.servers[14]**.startTime 0.019000
+param **.servers[14]**.endTime 0.020000
+param **.servers[17]**.dstLid 38
+param **.servers[17].app.msgLength 4096B
+param **.servers[17].app.msg2msgGap 50000ns
+param **.servers[17].app.msgNum 200
+param **.servers[17]**.startTime 0.017000
+param **.servers[17]**.endTime 0.018000
+param **.servers[18]**.dstLid 112
+param **.servers[18].app.msgLength 4096B
+param **.servers[18].app.msg2msgGap 50000ns
+param **.servers[18].app.msgNum 200
+param **.servers[18]**.startTime 0.007000
+param **.servers[18]**.endTime 0.008000
+param **.servers[19]**.dstLid 110
+param **.servers[19].app.msgLength 4096B
+param **.servers[19].app.msg2msgGap 50000ns
+param **.servers[19].app.msgNum 200
+param **.servers[19]**.startTime 0.009000
+param **.servers[19]**.endTime 0.010000
+param **.servers[20]**.dstLid 20
+param **.servers[20].app.msgLength 4096B
+param **.servers[20].app.msg2msgGap 50000ns
+param **.servers[20].app.msgNum 200
+param **.servers[20]**.startTime 0.007000
+param **.servers[20]**.endTime 0.008000
+param **.servers[21]**.dstLid 102
+param **.servers[21].app.msgLength 4096B
+param **.servers[21].app.msg2msgGap 50000ns
+param **.servers[21].app.msgNum 200
+param **.servers[21]**.startTime 0.011000
+param **.servers[21]**.endTime 0.012000
+param **.servers[22]**.dstLid 85
+param **.servers[22].app.msgLength 4096B
+param **.servers[22].app.msg2msgGap 50000ns
+param **.servers[22].app.msgNum 200
+param **.servers[22]**.startTime 0.009000
+param **.servers[22]**.endTime 0.010000
+param **.servers[23]**.dstLid 118
+param **.servers[23].app.msgLength 4096B
+param **.servers[23].app.msg2msgGap 50000ns
+param **.servers[23].app.msgNum 200
+param **.servers[23]**.startTime 0.017000
+param **.servers[23]**.endTime 0.018000
+param **.servers[24]**.dstLid 97
+param **.servers[24].app.msgLength 4096B
+param **.servers[24].app.msg2msgGap 50000ns
+param **.servers[24].app.msgNum 200
+param **.servers[24]**.startTime 0.009000
+param **.servers[24]**.endTime 0.010000
+param **.servers[27]**.dstLid 9
+param **.servers[27].app.msgLength 4096B
+param **.servers[27].app.msg2msgGap 50000ns
+param **.servers[27].app.msgNum 200
+param **.servers[27]**.startTime 0.019000
+param **.servers[27]**.endTime 0.020000
+param **.servers[28]**.dstLid 14
+param **.servers[28].app.msgLength 4096B
+param **.servers[28].app.msg2msgGap 50000ns
+param **.servers[28].app.msgNum 200
+param **.servers[28]**.startTime 0.015000
+param **.servers[28]**.endTime 0.016000
+param **.servers[29]**.dstLid 128
+param **.servers[29].app.msgLength 4096B
+param **.servers[29].app.msg2msgGap 50000ns
+param **.servers[29].app.msgNum 200
+param **.servers[29]**.startTime 0.011000
+param **.servers[29]**.endTime 0.012000
+param **.servers[30]**.dstLid 87
+param **.servers[30].app.msgLength 4096B
+param **.servers[30].app.msg2msgGap 50000ns
+param **.servers[30].app.msgNum 200
+param **.servers[30]**.startTime 0.009000
+param **.servers[30]**.endTime 0.010000
+param **.servers[32]**.dstLid 69
+param **.servers[32].app.msgLength 4096B
+param **.servers[32].app.msg2msgGap 50000ns
+param **.servers[32].app.msgNum 200
+param **.servers[32]**.startTime 0.021000
+param **.servers[32]**.endTime 0.022000
+param **.servers[34]**.dstLid 69
+param **.servers[34].app.msgLength 4096B
+param **.servers[34].app.msg2msgGap 50000ns
+param **.servers[34].app.msgNum 200
+param **.servers[34]**.startTime 0.017000
+param **.servers[34]**.endTime 0.018000
+param **.servers[35]**.dstLid 99
+param **.servers[35].app.msgLength 4096B
+param **.servers[35].app.msg2msgGap 50000ns
+param **.servers[35].app.msgNum 200
+param **.servers[35]**.startTime 0.013000
+param **.servers[35]**.endTime 0.014000
+param **.servers[36]**.dstLid 51
+param **.servers[36].app.msgLength 4096B
+param **.servers[36].app.msg2msgGap 50000ns
+param **.servers[36].app.msgNum 200
+param **.servers[36]**.startTime 0.011000
+param **.servers[36]**.endTime 0.012000
+param **.servers[37]**.dstLid 73
+param **.servers[37].app.msgLength 4096B
+param **.servers[37].app.msg2msgGap 50000ns
+param **.servers[37].app.msgNum 200
+param **.servers[37]**.startTime 0.013000
+param **.servers[37]**.endTime 0.014000
+param **.servers[38]**.dstLid 74
+param **.servers[38].app.msgLength 4096B
+param **.servers[38].app.msg2msgGap 50000ns
+param **.servers[38].app.msgNum 200
+param **.servers[38]**.startTime 0.015000
+param **.servers[38]**.endTime 0.016000
+param **.servers[41]**.dstLid 45
+param **.servers[41].app.msgLength 4096B
+param **.servers[41].app.msg2msgGap 50000ns
+param **.servers[41].app.msgNum 200
+param **.servers[41]**.startTime 0.013000
+param **.servers[41]**.endTime 0.014000
+param **.servers[43]**.dstLid 8
+param **.servers[43].app.msgLength 4096B
+param **.servers[43].app.msg2msgGap 50000ns
+param **.servers[43].app.msgNum 200
+param **.servers[43]**.startTime 0.011000
+param **.servers[43]**.endTime 0.012000
+param **.servers[44]**.dstLid 9
+param **.servers[44].app.msgLength 4096B
+param **.servers[44].app.msg2msgGap 50000ns
+param **.servers[44].app.msgNum 200
+param **.servers[44]**.startTime 0.009000
+param **.servers[44]**.endTime 0.010000
+param **.servers[45]**.dstLid 58
+param **.servers[45].app.msgLength 4096B
+param **.servers[45].app.msg2msgGap 50000ns
+param **.servers[45].app.msgNum 200
+param **.servers[45]**.startTime 0.015000
+param **.servers[45]**.endTime 0.016000
+param **.servers[46]**.dstLid 82
+param **.servers[46].app.msgLength 4096B
+param **.servers[46].app.msg2msgGap 50000ns
+param **.servers[46].app.msgNum 200
+param **.servers[46]**.startTime 0.011000
+param **.servers[46]**.endTime 0.012000
+param **.servers[47]**.dstLid 89
+param **.servers[47].app.msgLength 4096B
+param **.servers[47].app.msg2msgGap 50000ns
+param **.servers[47].app.msgNum 200
+param **.servers[47]**.startTime 0.011000
+param **.servers[47]**.endTime 0.012000
+param **.servers[48]**.dstLid 65
+param **.servers[48].app.msgLength 4096B
+param **.servers[48].app.msg2msgGap 50000ns
+param **.servers[48].app.msgNum 200
+param **.servers[48]**.startTime 0.007000
+param **.servers[48]**.endTime 0.008000
+param **.servers[49]**.dstLid 81
+param **.servers[49].app.msgLength 4096B
+param **.servers[49].app.msg2msgGap 50000ns
+param **.servers[49].app.msgNum 200
+param **.servers[49]**.startTime 0.015000
+param **.servers[49]**.endTime 0.016000
+param **.servers[50]**.dstLid 30
+param **.servers[50].app.msgLength 4096B
+param **.servers[50].app.msg2msgGap 50000ns
+param **.servers[50].app.msgNum 200
+param **.servers[50]**.startTime 0.019000
+param **.servers[50]**.endTime 0.020000
+param **.servers[51]**.dstLid 6
+param **.servers[51].app.msgLength 4096B
+param **.servers[51].app.msg2msgGap 50000ns
+param **.servers[51].app.msgNum 200
+param **.servers[51]**.startTime 0.017000
+param **.servers[51]**.endTime 0.018000
+param **.servers[52]**.dstLid 55
+param **.servers[52].app.msgLength 4096B
+param **.servers[52].app.msg2msgGap 50000ns
+param **.servers[52].app.msgNum 200
+param **.servers[52]**.startTime 0.007000
+param **.servers[52]**.endTime 0.008000
+param **.servers[54]**.dstLid 119
+param **.servers[54].app.msgLength 4096B
+param **.servers[54].app.msg2msgGap 50000ns
+param **.servers[54].app.msgNum 200
+param **.servers[54]**.startTime 0.019000
+param **.servers[54]**.endTime 0.020000
+param **.servers[55]**.dstLid 128
+param **.servers[55].app.msgLength 4096B
+param **.servers[55].app.msg2msgGap 50000ns
+param **.servers[55].app.msgNum 200
+param **.servers[55]**.startTime 0.017000
+param **.servers[55]**.endTime 0.018000
+param **.servers[57]**.dstLid 39
+param **.servers[57].app.msgLength 4096B
+param **.servers[57].app.msg2msgGap 50000ns
+param **.servers[57].app.msgNum 200
+param **.servers[57]**.startTime 0.009000
+param **.servers[57]**.endTime 0.010000
+param **.servers[58]**.dstLid 36
+param **.servers[58].app.msgLength 4096B
+param **.servers[58].app.msg2msgGap 50000ns
+param **.servers[58].app.msgNum 200
+param **.servers[58]**.startTime 0.015000
+param **.servers[58]**.endTime 0.016000
+param **.servers[59]**.dstLid 65
+param **.servers[59].app.msgLength 4096B
+param **.servers[59].app.msg2msgGap 50000ns
+param **.servers[59].app.msgNum 200
+param **.servers[59]**.startTime 0.019000
+param **.servers[59]**.endTime 0.020000
+param **.servers[60]**.dstLid 112
+param **.servers[60].app.msgLength 4096B
+param **.servers[60].app.msg2msgGap 50000ns
+param **.servers[60].app.msgNum 200
+param **.servers[60]**.startTime 0.015000
+param **.servers[60]**.endTime 0.016000
+param **.servers[63]**.dstLid 94
+param **.servers[63].app.msgLength 4096B
+param **.servers[63].app.msg2msgGap 50000ns
+param **.servers[63].app.msgNum 200
+param **.servers[63]**.startTime 0.021000
+param **.servers[63]**.endTime 0.022000
+param **.servers[64]**.dstLid 77
+param **.servers[64].app.msgLength 4096B
+param **.servers[64].app.msg2msgGap 50000ns
+param **.servers[64].app.msgNum 200
+param **.servers[64]**.startTime 0.011000
+param **.servers[64]**.endTime 0.012000
+param **.servers[65]**.dstLid 22
+param **.servers[65].app.msgLength 4096B
+param **.servers[65].app.msg2msgGap 50000ns
+param **.servers[65].app.msgNum 200
+param **.servers[65]**.startTime 0.009000
+param **.servers[65]**.endTime 0.010000
+param **.servers[66]**.dstLid 5
+param **.servers[66].app.msgLength 4096B
+param **.servers[66].app.msg2msgGap 50000ns
+param **.servers[66].app.msgNum 200
+param **.servers[66]**.startTime 0.015000
+param **.servers[66]**.endTime 0.016000
+param **.servers[68]**.dstLid 104
+param **.servers[68].app.msgLength 4096B
+param **.servers[68].app.msg2msgGap 50000ns
+param **.servers[68].app.msgNum 200
+param **.servers[68]**.startTime 0.011000
+param **.servers[68]**.endTime 0.012000
+param **.servers[71]**.dstLid 73
+param **.servers[71].app.msgLength 4096B
+param **.servers[71].app.msg2msgGap 50000ns
+param **.servers[71].app.msgNum 200
+param **.servers[71]**.startTime 0.011000
+param **.servers[71]**.endTime 0.012000
+param **.servers[72]**.dstLid 96
+param **.servers[72].app.msgLength 4096B
+param **.servers[72].app.msg2msgGap 50000ns
+param **.servers[72].app.msgNum 200
+param **.servers[72]**.startTime 0.011000
+param **.servers[72]**.endTime 0.012000
+param **.servers[73]**.dstLid 78
+param **.servers[73].app.msgLength 4096B
+param **.servers[73].app.msg2msgGap 50000ns
+param **.servers[73].app.msgNum 200
+param **.servers[73]**.startTime 0.011000
+param **.servers[73]**.endTime 0.012000
+param **.servers[74]**.dstLid 101
+param **.servers[74].app.msgLength 4096B
+param **.servers[74].app.msg2msgGap 50000ns
+param **.servers[74].app.msgNum 200
+param **.servers[74]**.startTime 0.013000
+param **.servers[74]**.endTime 0.014000
+param **.servers[76]**.dstLid 114
+param **.servers[76].app.msgLength 4096B
+param **.servers[76].app.msg2msgGap 50000ns
+param **.servers[76].app.msgNum 200
+param **.servers[76]**.startTime 0.013000
+param **.servers[76]**.endTime 0.014000
+param **.servers[77]**.dstLid 78
+param **.servers[77].app.msgLength 4096B
+param **.servers[77].app.msg2msgGap 50000ns
+param **.servers[77].app.msgNum 200
+param **.servers[77]**.startTime 0.017000
+param **.servers[77]**.endTime 0.018000
+param **.servers[78]**.dstLid 81
+param **.servers[78].app.msgLength 4096B
+param **.servers[78].app.msg2msgGap 50000ns
+param **.servers[78].app.msgNum 200
+param **.servers[78]**.startTime 0.019000
+param **.servers[78]**.endTime 0.020000
+param **.servers[79]**.dstLid 83
+param **.servers[79].app.msgLength 4096B
+param **.servers[79].app.msg2msgGap 50000ns
+param **.servers[79].app.msgNum 200
+param **.servers[79]**.startTime 0.015000
+param **.servers[79]**.endTime 0.016000
+param **.servers[80]**.dstLid 120
+param **.servers[80].app.msgLength 4096B
+param **.servers[80].app.msg2msgGap 50000ns
+param **.servers[80].app.msgNum 200
+param **.servers[80]**.startTime 0.021000
+param **.servers[80]**.endTime 0.022000
+param **.servers[81]**.dstLid 56
+param **.servers[81].app.msgLength 4096B
+param **.servers[81].app.msg2msgGap 50000ns
+param **.servers[81].app.msgNum 200
+param **.servers[81]**.startTime 0.009000
+param **.servers[81]**.endTime 0.010000
+param **.servers[82]**.dstLid 119
+param **.servers[82].app.msgLength 4096B
+param **.servers[82].app.msg2msgGap 50000ns
+param **.servers[82].app.msgNum 200
+param **.servers[82]**.startTime 0.007000
+param **.servers[82]**.endTime 0.008000
+param **.servers[83]**.dstLid 25
+param **.servers[83].app.msgLength 4096B
+param **.servers[83].app.msg2msgGap 50000ns
+param **.servers[83].app.msgNum 200
+param **.servers[83]**.startTime 0.017000
+param **.servers[83]**.endTime 0.018000
+param **.servers[84]**.dstLid 9
+param **.servers[84].app.msgLength 4096B
+param **.servers[84].app.msg2msgGap 50000ns
+param **.servers[84].app.msgNum 200
+param **.servers[84]**.startTime 0.009000
+param **.servers[84]**.endTime 0.010000
+param **.servers[86]**.dstLid 110
+param **.servers[86].app.msgLength 4096B
+param **.servers[86].app.msg2msgGap 50000ns
+param **.servers[86].app.msgNum 200
+param **.servers[86]**.startTime 0.017000
+param **.servers[86]**.endTime 0.018000
+param **.servers[87]**.dstLid 89
+param **.servers[87].app.msgLength 4096B
+param **.servers[87].app.msg2msgGap 50000ns
+param **.servers[87].app.msgNum 200
+param **.servers[87]**.startTime 0.011000
+param **.servers[87]**.endTime 0.012000
+param **.servers[88]**.dstLid 10
+param **.servers[88].app.msgLength 4096B
+param **.servers[88].app.msg2msgGap 50000ns
+param **.servers[88].app.msgNum 200
+param **.servers[88]**.startTime 0.021000
+param **.servers[88]**.endTime 0.022000
+param **.servers[90]**.dstLid 30
+param **.servers[90].app.msgLength 4096B
+param **.servers[90].app.msg2msgGap 50000ns
+param **.servers[90].app.msgNum 200
+param **.servers[90]**.startTime 0.007000
+param **.servers[90]**.endTime 0.008000
+param **.servers[92]**.dstLid 44
+param **.servers[92].app.msgLength 4096B
+param **.servers[92].app.msg2msgGap 50000ns
+param **.servers[92].app.msgNum 200
+param **.servers[92]**.startTime 0.013000
+param **.servers[92]**.endTime 0.014000
+param **.servers[93]**.dstLid 126
+param **.servers[93].app.msgLength 4096B
+param **.servers[93].app.msg2msgGap 50000ns
+param **.servers[93].app.msgNum 200
+param **.servers[93]**.startTime 0.021000
+param **.servers[93]**.endTime 0.022000
+param **.servers[94]**.dstLid 91
+param **.servers[94].app.msgLength 4096B
+param **.servers[94].app.msg2msgGap 50000ns
+param **.servers[94].app.msgNum 200
+param **.servers[94]**.startTime 0.013000
+param **.servers[94]**.endTime 0.014000
+param **.servers[95]**.dstLid 10
+param **.servers[95].app.msgLength 4096B
+param **.servers[95].app.msg2msgGap 50000ns
+param **.servers[95].app.msgNum 200
+param **.servers[95]**.startTime 0.019000
+param **.servers[95]**.endTime 0.020000
+param **.servers[96]**.dstLid 29
+param **.servers[96].app.msgLength 4096B
+param **.servers[96].app.msg2msgGap 50000ns
+param **.servers[96].app.msgNum 200
+param **.servers[96]**.startTime 0.017000
+param **.servers[96]**.endTime 0.018000
+param **.servers[98]**.dstLid 127
+param **.servers[98].app.msgLength 4096B
+param **.servers[98].app.msg2msgGap 50000ns
+param **.servers[98].app.msgNum 200
+param **.servers[98]**.startTime 0.007000
+param **.servers[98]**.endTime 0.008000
+param **.servers[99]**.dstLid 53
+param **.servers[99].app.msgLength 4096B
+param **.servers[99].app.msg2msgGap 50000ns
+param **.servers[99].app.msgNum 200
+param **.servers[99]**.startTime 0.019000
+param **.servers[99]**.endTime 0.020000
+param **.servers[100]**.dstLid 47
+param **.servers[100].app.msgLength 4096B
+param **.servers[100].app.msg2msgGap 50000ns
+param **.servers[100].app.msgNum 200
+param **.servers[100]**.startTime 0.013000
+param **.servers[100]**.endTime 0.014000
+param **.servers[101]**.dstLid 6
+param **.servers[101].app.msgLength 4096B
+param **.servers[101].app.msg2msgGap 50000ns
+param **.servers[101].app.msgNum 200
+param **.servers[101]**.startTime 0.015000
+param **.servers[101]**.endTime 0.016000
+param **.servers[102]**.dstLid 50
+param **.servers[102].app.msgLength 4096B
+param **.servers[102].app.msg2msgGap 50000ns
+param **.servers[102].app.msgNum 200
+param **.servers[102]**.startTime 0.009000
+param **.servers[102]**.endTime 0.010000
+param **.servers[103]**.dstLid 13
+param **.servers[103].app.msgLength 4096B
+param **.servers[103].app.msg2msgGap 50000ns
+param **.servers[103].app.msgNum 200
+param **.servers[103]**.startTime 0.017000
+param **.servers[103]**.endTime 0.018000
+param **.servers[106]**.dstLid 122
+param **.servers[106].app.msgLength 4096B
+param **.servers[106].app.msg2msgGap 50000ns
+param **.servers[106].app.msgNum 200
+param **.servers[106]**.startTime 0.019000
+param **.servers[106]**.endTime 0.020000
+param **.servers[107]**.dstLid 101
+param **.servers[107].app.msgLength 4096B
+param **.servers[107].app.msg2msgGap 50000ns
+param **.servers[107].app.msgNum 200
+param **.servers[107]**.startTime 0.021000
+param **.servers[107]**.endTime 0.022000
+param **.servers[108]**.dstLid 21
+param **.servers[108].app.msgLength 4096B
+param **.servers[108].app.msg2msgGap 50000ns
+param **.servers[108].app.msgNum 200
+param **.servers[108]**.startTime 0.021000
+param **.servers[108]**.endTime 0.022000
+param **.servers[109]**.dstLid 6
+param **.servers[109].app.msgLength 4096B
+param **.servers[109].app.msg2msgGap 50000ns
+param **.servers[109].app.msgNum 200
+param **.servers[109]**.startTime 0.009000
+param **.servers[109]**.endTime 0.010000
+param **.servers[110]**.dstLid 5
+param **.servers[110].app.msgLength 4096B
+param **.servers[110].app.msg2msgGap 50000ns
+param **.servers[110].app.msgNum 200
+param **.servers[110]**.startTime 0.017000
+param **.servers[110]**.endTime 0.018000
+param **.servers[111]**.dstLid 44
+param **.servers[111].app.msgLength 4096B
+param **.servers[111].app.msg2msgGap 50000ns
+param **.servers[111].app.msgNum 200
+param **.servers[111]**.startTime 0.011000
+param **.servers[111]**.endTime 0.012000
+param **.servers[112]**.dstLid 35
+param **.servers[112].app.msgLength 4096B
+param **.servers[112].app.msg2msgGap 50000ns
+param **.servers[112].app.msgNum 200
+param **.servers[112]**.startTime 0.021000
+param **.servers[112]**.endTime 0.022000
+param **.servers[113]**.dstLid 31
+param **.servers[113].app.msgLength 4096B
+param **.servers[113].app.msg2msgGap 50000ns
+param **.servers[113].app.msgNum 200
+param **.servers[113]**.startTime 0.021000
+param **.servers[113]**.endTime 0.022000
+param **.servers[117]**.dstLid 66
+param **.servers[117].app.msgLength 4096B
+param **.servers[117].app.msg2msgGap 50000ns
+param **.servers[117].app.msgNum 200
+param **.servers[117]**.startTime 0.007000
+param **.servers[117]**.endTime 0.008000
+param **.servers[118]**.dstLid 5
+param **.servers[118].app.msgLength 4096B
+param **.servers[118].app.msg2msgGap 50000ns
+param **.servers[118].app.msgNum 200
+param **.servers[118]**.startTime 0.013000
+param **.servers[118]**.endTime 0.014000
+param **.servers[119]**.dstLid 30
+param **.servers[119].app.msgLength 4096B
+param **.servers[119].app.msg2msgGap 50000ns
+param **.servers[119].app.msgNum 200
+param **.servers[119]**.startTime 0.011000
+param **.servers[119]**.endTime 0.012000
+param **.servers[121]**.dstLid 77
+param **.servers[121].app.msgLength 4096B
+param **.servers[121].app.msg2msgGap 50000ns
+param **.servers[121].app.msgNum 200
+param **.servers[121]**.startTime 0.017000
+param **.servers[121]**.endTime 0.018000
+param **.servers[122]**.dstLid 37
+param **.servers[122].app.msgLength 4096B
+param **.servers[122].app.msg2msgGap 50000ns
+param **.servers[122].app.msgNum 200
+param **.servers[122]**.startTime 0.021000
+param **.servers[122]**.endTime 0.022000
+param **.servers[124]**.dstLid 45
+param **.servers[124].app.msgLength 4096B
+param **.servers[124].app.msg2msgGap 50000ns
+param **.servers[124].app.msgNum 200
+param **.servers[124]**.startTime 0.007000
+param **.servers[124]**.endTime 0.008000
+param **.servers[125]**.dstLid 83
+param **.servers[125].app.msgLength 4096B
+param **.servers[125].app.msg2msgGap 50000ns
+param **.servers[125].app.msgNum 200
+param **.servers[125]**.startTime 0.009000
+param **.servers[125]**.endTime 0.010000
+param **.servers[126]**.dstLid 102
+param **.servers[126].app.msgLength 4096B
+param **.servers[126].app.msg2msgGap 50000ns
+param **.servers[126].app.msgNum 200
+param **.servers[126]**.startTime 0.009000
+param **.servers[126]**.endTime 0.010000
+param **.servers[127]**.dstLid 24
+param **.servers[127].app.msgLength 4096B
+param **.servers[127].app.msg2msgGap 50000ns
+param **.servers[127].app.msgNum 200
+param **.servers[127]**.startTime 0.019000
+param **.servers[127]**.endTime 0.020000
+param **.**switches[*]**.fdbsVecFile "\"examples/evaluation_fattree128/fat_tree_128.fdbs\""
+param **.startStatCol 100us
+param **.dstMode "\"param\""
+param **.app.dstSeqVecFile "\"\""
+param **.app.dstSeqVecIdx 0
+param **.msgLenMode "\"param\""
+param **.msgMtuLen 2048B
+param **.msgLenSet "\"4096 4096 4096\""
+param **.msgLenProb "\"1 1 1 1\""
+param **.msgSQ 0
+param **.maxContPkts 10
+param **.popDlyPerByte 0.25ns
+param **.genDlyPerByte 0.25ns
+param **.maxQueuedPerVL 10
+param **.flit2FlitGap 0.001ns
+param **.pkt2PktGap 0.001ns
+param **.timeStep_us 49us
+param **.CCT_Timer 30us
+param **.vlarb.markrate 1
+param **ibuf.maxBeingSent 1
+param **ibuf.totalBufferSize 1000
+param **.servers[*]**.ibuf.maxStatic* 32
+param **.**switches[*]**.subport[*].ibuf.maxStatic* 32
+param **.**switches[*]**.obuf.size 5
+param **.servers[*]**.obuf.size 5
+param **.pktFwdType "\"Pktfwd\""
+param **.servers[*]**.vlarb.busWidth 16B
+param **.servers[*]**.vlarb.coreFreq 1000MHz
+param **.**switches[*]**.vlarb.coreFreq 1200MHz
+param **.**switches[*]**.vlarb.busWidth 24B
+
+vector 0 fat_tree_128.servers[89].sink "latency of Large message" ETV
+vector 1 fat_tree_128.servers[62].sink "latency of Large message" ETV
+vector 2 fat_tree_128.servers[70].sink "latency of Large message" ETV
+vector 3 fat_tree_128.servers[15].sink "latency of Large message" ETV
+vector 4 fat_tree_128.servers[54].sink "Latency of each message" ETV
+vector 5 fat_tree_128.servers[19].sink "Latency of each message" ETV
+vector 6 fat_tree_128.servers[55].sink "Latency of each message" ETV
+vector 7 fat_tree_128.servers[29].sink "Latency of each message" ETV
+vector 8 fat_tree_128.servers[44].sink "Latency of each message" ETV
+vector 9 fat_tree_128.servers[64].sink "Latency of each message" ETV
+vector 10 fat_tree_128.servers[94].sink "Latency of each message" ETV
+vector 11 fat_tree_128.servers[111].sink "Latency of each message" ETV
+vector 12 fat_tree_128.servers[65].sink "Latency of each message" ETV
+vector 13 fat_tree_128.servers[118].sink "Latency of each message" ETV
+vector 14 fat_tree_128.servers[126].sink "Latency of each message" ETV
+vector 15 fat_tree_128.servers[104].sink "latency of Large message" ETV
+vector 16 fat_tree_128.servers[26].sink "latency of Large message" ETV
+vector 17 fat_tree_128.servers[116].sink "latency of Large message" ETV
+vector 18 fat_tree_128.servers[86].sink "Latency of each message" ETV
+vector 19 fat_tree_128.servers[38].sink "Latency of each message" ETV
+vector 20 fat_tree_128.servers[21].sink "Latency of each message" ETV
+vector 21 fat_tree_128.servers[59].sink "Latency of each message" ETV
+vector 22 fat_tree_128.servers[101].sink "Latency of each message" ETV
+vector 23 fat_tree_128.servers[84].sink "Latency of each message" ETV
+vector 24 fat_tree_128.servers[49].sink "Latency of each message" ETV
+vector 25 fat_tree_128.servers[8].sink "Latency of each message" ETV
+vector 26 fat_tree_128.servers[5].sink "Latency of each message" ETV
+vector 27 fat_tree_128.servers[109].sink "Latency of each message" ETV
+vector 28 fat_tree_128.servers[82].sink "Latency of each message" ETV
+vector 29 fat_tree_128.servers[96].sink "Latency of each message" ETV
+vector 30 fat_tree_128.servers[39].sink "latency of Large message" ETV
+vector 31 fat_tree_128.servers[76].sink "Latency of each message" ETV
+vector 32 fat_tree_128.servers[72].sink "Latency of each message" ETV
+vector 33 fat_tree_128.servers[77].sink "Latency of each message" ETV
+vector 34 fat_tree_128.servers[127].sink "Latency of each message" ETV
+vector 35 fat_tree_128.servers[81].sink "Latency of each message" ETV
+vector 36 fat_tree_128.servers[88].sink "Latency of each message" ETV
+vector 37 fat_tree_128.servers[7].sink "Latency of each message" ETV
+vector 38 fat_tree_128.servers[50].sink "Latency of each message" ETV
+vector 39 fat_tree_128.servers[43].sink "Latency of each message" ETV
+vector 40 fat_tree_128.servers[103].sink "Latency of each message" ETV
+vector 41 fat_tree_128.servers[95].sink "Latency of each message" ETV
+vector 42 fat_tree_128.servers[90].sink "Latency of each message" ETV
+vector 43 fat_tree_128.servers[98].sink "Latency of each message" ETV
+vector 44 fat_tree_128.servers[113].sink "Latency of each message" ETV
+vector 45 fat_tree_128.servers[46].sink "Latency of each message" ETV
+vector 46 fat_tree_128.servers[4].sink "Latency of each message" ETV
+vector 47 fat_tree_128.servers[100].sink "Latency of each message" ETV
+vector 48 fat_tree_128.servers[47].sink "Latency of each message" ETV
+vector 49 fat_tree_128.servers[83].sink "Latency of each message" ETV
+vector 50 fat_tree_128.servers[80].sink "Latency of each message" ETV
+vector 51 fat_tree_128.servers[48].sink "Latency of each message" ETV
+vector 52 fat_tree_128.servers[13].sink "Latency of each message" ETV
+vector 53 fat_tree_128.servers[73].sink "Latency of each message" ETV
+vector 54 fat_tree_128.servers[57].sink "Latency of each message" ETV
+vector 55 fat_tree_128.servers[35].sink "Latency of each message" ETV
+vector 56 fat_tree_128.servers[78].sink "Latency of each message" ETV
+vector 57 fat_tree_128.servers[24].sink "Latency of each message" ETV
+vector 58 fat_tree_128.servers[37].sink "Latency of each message" ETV
+vector 59 fat_tree_128.servers[117].sink "Latency of each message" ETV
+vector 60 fat_tree_128.servers[68].sink "Latency of each message" ETV
+vector 61 fat_tree_128.servers[12].sink "Latency of each message" ETV
+vector 62 fat_tree_128.servers[28].sink "Latency of each message" ETV
+vector 63 fat_tree_128.servers[9].sink "Latency of each message" ETV
+vector 64 fat_tree_128.servers[121].sink "Latency of each message" ETV
+vector 65 fat_tree_128.servers[23].sink "Latency of each message" ETV
+vector 66 fat_tree_128.servers[52].sink "Latency of each message" ETV
+vector 67 fat_tree_128.servers[92].sink "Latency of each message" ETV
+vector 68 fat_tree_128.servers[93].sink "Latency of each message" ETV
+vector 69 fat_tree_128.servers[36].sink "Latency of each message" ETV
+vector 70 fat_tree_128.servers[119].sink "Latency of each message" ETV
+vector 71 fat_tree_128.servers[20].sink "Latency of each message" ETV
+vector 72 fat_tree_128.servers[34].sink "Latency of each message" ETV
+vector 73 fat_tree_128.servers[125].sink "Latency of each message" ETV
+vector 74 fat_tree_128.servers[30].sink "Latency of each message" ETV
+0	48793 202 4269836 13963272 0.006113118987 0.010581662493 5 0.001112605987 0.001121420554 0.005589567762 6.2487206916044e-06
+1	48995 200 4276935 13939568 0.006116297802 0.010569310801 5 0.001113624279 0.00111851526 0.005579082702 6.225246205206e-06
+2	49195 400 5681719 23407171 0.006777612675 0.015566102924 10 0.001442185535 0.002532457 0.020363175042 4.2332970669212e-05
+3	49595 408 6082660 23430665 0.006966571334 0.015578665252 10 0.001966058334 0.002237038334 0.020959017686 4.3967297073835e-05
+4	50003 6319 6264154 25801848 0.007051124 0.017103012 200 6.12e-07 6.14e-07 0.000122468 7.4992168e-11
+5	56322 6318 6264742 25802280 0.007051324 0.017103212 200 8.12e-07 8.14e-07 0.000162492 1.32018392e-10
+6	62640 13129 6265395 29060563 0.007051524 0.019104438 400 1.012e-06 2.227661e-06 0.000601691709 9.9830093242434e-10
+7	75769 19839 6265397 42088696 0.007051524 0.029103412 600 1.012e-06 1.854e-06 0.000641442438 7.0063599467923e-10
+8	95608 13337 6265399 35137751 0.007051524 0.023103212 400 8.12e-07 1.326e-06 0.0004044795 4.1869434337661e-10
+9	108945 14111 6265816 42088700 0.007051731033 0.029103412 400 1.012e-06 2.092011e-06 0.000539670418 7.6446170927545e-10
+10	123056 7207 6266462 25802663 0.007052020258 0.017103412 200 1.012e-06 2.036e-06 0.000265361129 3.6349093715553e-10
+11	130263 20724 6266523 40148260 0.007052036 0.027103414 600 1.012e-06 2.039e-06 0.000885736143 1.4400002377267e-09
+12	150987 7017 6266525 25803339 0.007052036 0.017103924 200 1.012e-06 1.966524e-06 0.000248423547 3.2246098252937e-10
+13	158004 14060 6267431 42088698 0.007052548 0.029103412 400 1.012e-06 2.038e-06 0.000580937871 8.625938364539e-10
+14	172064 6780 6268132 25803785 0.00705306 0.017104436 200 2.036e-06 2.55e-06 0.000416673275 8.7193645107683e-10
+15	178844 621 8470319 32606478 0.008072736389 0.021287904007 15 0.00271924837 0.003876130385 0.048171301521 0.00015578432392853
+16	179465 1033 8476993 44893598 0.008075539 0.032317792275 25 0.001049088478 0.022119006717 0.097347338805 0.00097245618386964
+17	180498 820 9589027 39068372 0.008590652524 0.026087993257 20 0.002093880128 0.004974183231 0.079347798071 0.00032771101410142
+18	181318 6757 10584400 29059641 0.009051524 0.019103924 200 1.012e-06 1.526e-06 0.000229654 2.73921628e-10
+19	188075 6920 10584402 29060367 0.009051524 0.01910432214 200 1.012e-06 1.95396e-06 0.00022591927 2.6451240070115e-10
+20	194995 6766 10584404 29056338 0.009051524 0.019103412 200 1.012e-06 1.526e-06 0.00020417285 2.091769919385e-10
+21	201761 6764 10585539 29059639 0.009052036 0.019103924 200 1.524e-06 2.038201e-06 0.000320487862 5.2026405598332e-10
+22	208525 13754 10585541 32325444 0.009052036 0.021103414 400 1.012e-06 2.55e-06 0.00062147071 1.0717963444687e-09
+23	222279 6772 10585543 29059937 0.009052036 0.019104086 200 1.524e-06 2.036e-06 0.000307496093 4.7375903976423e-10
+24	229051 6825 10585545 29059645 0.009052036 0.019103924 200 1.524e-06 2.55e-06 0.000314157908 4.9827936461107e-10
+25	235876 20455 10588144 42088694 0.009052188135 0.029103412 600 1.012e-06 2.287202e-06 0.000927730782 1.5353032070572e-09
+26	256331 26986 10589153 40148262 0.00905255 0.027103414 800 6.12e-07 2.594512e-06 0.001148837735 1.9755632221013e-09
+27	283317 13700 10589157 40148266 0.00905255 0.027103414 400 1.012e-06 2.986116e-06 0.000561142485 8.5396741274854e-10
+28	297017 14066 10591255 37811937 0.009053653695 0.025103412 400 1.012e-06 4.520601e-06 0.000836847193 2.3347397506705e-09
+29	311083 7936 10591495 29066578 0.009053787282 0.019108445933 200 2.036e-06 6.564868e-06 0.000935024284 4.7001428990028e-09
+30	319019 1251 12418191 47500958 0.009880539202 0.03667740765 30 0.001059025234 0.010263621706 0.171983094808 0.0010881145917307
+31	320270 13311 14831830 40149447 0.011051326 0.027104438 400 8.12e-07 2.039e-06 0.00053038 8.228019e-10
+32	333581 13797 14831832 35138488 0.011051326 0.023103924 400 8.12e-07 2.038e-06 0.000422510983 4.8453182538344e-10
+33	347378 13108 14831834 40145456 0.011051326 0.027103012 400 6.12e-07 8.14e-07 0.000284942 2.0697769e-10
+34	360486 13996 14832299 40148264 0.011051526 0.027103414 400 1.012e-06 2.259123e-06 0.00048734308 6.3732938276658e-10
+35	374482 6856 14832301 32325450 0.011051526 0.021103414 200 1.012e-06 1.574296e-06 0.00021645488 2.3981833380534e-10
+36	381338 13881 14833055 32326689 0.011051838 0.0211043016 400 8.12e-07 2.260786e-06 0.000642191392 1.0699252405488e-09
+37	395219 7197 14833246 32325448 0.011051941231 0.021103414 200 1.012e-06 2.427517e-06 0.000252488853 3.3579995396246e-10
+38	402416 6800 14833341 32325446 0.011052020207 0.021103414 200 1.012e-06 1.527e-06 0.000211197192 2.2682789295288e-10
+39	409216 15692 14833419 35139163 0.011052054399 0.023104948 400 1.012e-06 8.123591e-06 0.001312469572 5.183456194239e-09
+40	424908 7199 14834012 32326203 0.011052453231 0.021103924 200 1.524e-06 4.086e-06 0.000417623725 9.5672293098832e-10
+41	432107 7228 14834755 32326836 0.011053044207 0.021104436 200 1.584602e-06 3.021666e-06 0.000436803589 9.6718344034368e-10
+42	439335 6554 18604536 35137755 0.013051324 0.023103212 200 8.12e-07 8.14e-07 0.000162463 1.31971237e-10
+43	445889 6811 18604978 35138126 0.013051524 0.023103412 200 1.012e-06 1.527e-06 0.0002128044 2.3078906564938e-10
+44	452700 6756 18604982 35138130 0.013051524 0.023103412 200 1.012e-06 1.014e-06 0.000202489 2.05009113e-10
+45	459456 6906 18604984 35138132 0.013051524 0.023103412 200 1.012e-06 1.825933e-06 0.000215476023 2.3694852146706e-10
+46	466362 20611 18604986 40150187 0.013051524 0.027105462 600 1.012e-06 3.828139e-06 0.001042323219 2.4505051135926e-09
+47	486973 14235 18612319 43870683 0.013055302 0.031103212 400 8.12e-07 6.048816e-06 0.000896009099 3.3875148207705e-09
+48	501208 7824 18613562 35138823 0.013056254343 0.023104436 200 1.524e-06 6.463196e-06 0.000657618105 2.4893188206011e-09
+49	509032 6817 22428853 37811933 0.015051524 0.025103412 200 1.012e-06 1.918706e-06 0.00021001567 2.2404658744617e-10
+50	515849 13988 22428855 42089468 0.015051524 0.029104436 400 1.012e-06 2.039e-06 0.000669723226 1.1797370949711e-09
+51	529837 7074 22428977 37811931 0.015051611541 0.025103412 200 1.012e-06 1.96591e-06 0.000236207698 2.8943608414871e-10
+52	536911 6789 22429559 37812422 0.015052036 0.025103924 200 1.524e-06 2.55e-06 0.000318439383 5.1868286161999e-10
+53	543700 6853 22429561 37812424 0.015052036 0.025103924 200 1.524e-06 2.55e-06 0.000329178341 5.6067102803893e-10
+54	550553 6901 22430336 37815104 0.015052548 0.025104436 200 1.564632e-06 2.664386e-06 0.000409593863 8.428199629975e-10
+55	557454 7813 22435934 37815622 0.015055042078 0.025105062739 200 1.524e-06 6.460014e-06 0.000605134655 2.0770822450823e-09
+56	565267 7288 25722882 40149028 0.017051524 0.027103926 200 1.012e-06 1.620342e-06 0.00027381523 3.8226099578759e-10
+57	572555 6932 25722888 40149034 0.017051524 0.027103926 200 1.012e-06 2.036e-06 0.000297714688 4.5175532279511e-10
+58	579487 6816 25726213 40149030 0.017052038 0.027103926 200 1.524e-06 2.038e-06 0.000317766127 5.1016402658001e-10
+59	586303 13564 25726298 40149449 0.017052038 0.027104438 400 1.012e-06 2.55e-06 0.000704196372 1.299968179028e-09
+60	599867 13595 25727485 43870983 0.01705255 0.031103412 400 1.012e-06 2.119707e-06 0.000554421738 8.2748382877818e-10
+61	613462 7057 25728861 40149764 0.017053355791 0.02710495 200 2.104276e-06 3.574e-06 0.000533873219 1.4348653634166e-09
+62	620519 7155 25729741 40149451 0.017054379791 0.027104438 200 2.036e-06 4.464e-06 0.000562827459 1.7021126788348e-09
+63	627674 13581 28968282 43871338 0.019051524 0.031103924 400 1.012e-06 1.784973e-06 0.000514703759 6.880989455046e-10
+64	641255 6764 28968284 42088706 0.019051524 0.029103412 200 1.012e-06 1.524e-06 0.000204593155 2.1012570671084e-10
+65	648019 6974 28968286 42088898 0.019051524 0.029103663609 200 1.012e-06 1.852012e-06 0.000231231466 2.769764916494e-10
+66	654993 7107 28969058 42088704 0.019051944612 0.029103412 200 1.012e-06 2.444869e-06 0.000261416256 3.6892859485459e-10
+67	662100 6756 28970663 42089127 0.019052548 0.029103924 200 1.524e-06 2.038e-06 0.000316681 5.06769273e-10
+68	668856 6784 32236236 43870985 0.021051524 0.031103412 200 1.012e-06 1.526e-06 0.000208269215 2.1924045789356e-10
+69	675640 6753 32236238 43870991 0.021051524 0.031103412 200 1.012e-06 1.014e-06 0.000202502 2.05035452e-10
+70	682393 7050 32237392 43870987 0.021052014179 0.031103412 200 1.012e-06 2.034049e-06 0.000235029395 2.8737209691046e-10
+71	689443 6924 32237440 43870989 0.021052036 0.031103412 200 1.012e-06 2.038e-06 0.00023103311 2.8051547179102e-10
+72	696367 7189 32237442 43874528 0.021052036 0.031106443249 200 1.524e-06 4.438544e-06 0.00041895066 1.0292909555569e-09
+73	703556 6755 32238936 43871601 0.021052548 0.031104436 200 2.036e-06 2.039e-06 0.000407357 8.29698821e-10
+74	710311 7804 32245156 43874868 0.021055224032 0.031106955249 200 2.036e-06 1.0891717e-05 0.000879501582 4.2390943246033e-09
+

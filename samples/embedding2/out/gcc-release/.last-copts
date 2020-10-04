@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+-O3 -DNDEBUG=1 -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH    -I/home/netarchlab/omnetpp-5.5.1/include
+=======
+-O3 -DNDEBUG=1 -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DXMLPARSER=expat -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSGEARTH    -I/root/omnetpp-5.5.1/include
+>>>>>>> c5a259b2be548d1ad67dc20a1954f2831997c53a

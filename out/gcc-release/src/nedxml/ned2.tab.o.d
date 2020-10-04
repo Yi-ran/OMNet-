@@ -1,0 +1,67 @@
+<<<<<<< HEAD
+/home/netarchlab/omnetpp-5.5.1/out/gcc-release/src/nedxml/ned2.tab.o: \
+ ned2.tab.cc /home/netarchlab/omnetpp-5.5.1/src/common/commonutil.h \
+ /home/netarchlab/omnetpp-5.5.1/src/common/commondefs.h \
+ /home/netarchlab/omnetpp-5.5.1/include/omnetpp/platdep/platdefs.h \
+ /home/netarchlab/omnetpp-5.5.1/src/common/exception.h \
+ /home/netarchlab/omnetpp-5.5.1/src/common/stringutil.h \
+ /home/netarchlab/omnetpp-5.5.1/src/common/commonutil.h yydefs.h \
+ nedxmldefs.h errorstore.h sourcedocument.h exception.h nedelements.h \
+ astnode.h nedutil.h nedyyutil.h yyutil.h ned2.tab.hh
+
+/home/netarchlab/omnetpp-5.5.1/src/common/commonutil.h:
+
+/home/netarchlab/omnetpp-5.5.1/src/common/commondefs.h:
+
+/home/netarchlab/omnetpp-5.5.1/include/omnetpp/platdep/platdefs.h:
+
+/home/netarchlab/omnetpp-5.5.1/src/common/exception.h:
+
+/home/netarchlab/omnetpp-5.5.1/src/common/stringutil.h:
+
+/home/netarchlab/omnetpp-5.5.1/src/common/commonutil.h:
+=======
+/root/omnetpp-5.5.1/out/gcc-release/src/nedxml/ned2.tab.o: ned2.tab.cc \
+ /root/omnetpp-5.5.1/src/common/commonutil.h \
+ /root/omnetpp-5.5.1/src/common/commondefs.h \
+ /root/omnetpp-5.5.1/include/omnetpp/platdep/platdefs.h \
+ /root/omnetpp-5.5.1/src/common/exception.h \
+ /root/omnetpp-5.5.1/src/common/stringutil.h \
+ /root/omnetpp-5.5.1/src/common/commonutil.h yydefs.h nedxmldefs.h \
+ errorstore.h sourcedocument.h exception.h nedelements.h astnode.h \
+ nedutil.h nedyyutil.h yyutil.h ned2.tab.hh
+
+/root/omnetpp-5.5.1/src/common/commonutil.h:
+
+/root/omnetpp-5.5.1/src/common/commondefs.h:
+
+/root/omnetpp-5.5.1/include/omnetpp/platdep/platdefs.h:
+
+/root/omnetpp-5.5.1/src/common/exception.h:
+
+/root/omnetpp-5.5.1/src/common/stringutil.h:
+
+/root/omnetpp-5.5.1/src/common/commonutil.h:
+>>>>>>> c5a259b2be548d1ad67dc20a1954f2831997c53a
+
+yydefs.h:
+
+nedxmldefs.h:
+
+errorstore.h:
+
+sourcedocument.h:
+
+exception.h:
+
+nedelements.h:
+
+astnode.h:
+
+nedutil.h:
+
+nedyyutil.h:
+
+yyutil.h:
+
+ned2.tab.hh:

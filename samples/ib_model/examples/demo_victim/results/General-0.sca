@@ -1,0 +1,2414 @@
+version 2
+run General-0-20190924-09:32:10-1676
+attr configname General
+attr datetime 20190924-09:32:10
+attr experiment General
+attr inifile demo_victim.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network ib_model.examples.demo_victim.demo_victim_network
+attr processid 1676
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.CCT_Timer 100us
+param **.H_1.app.dstLid 0
+param **.H_1.app.msgLength 3276800B
+param **.H_2.app.msgLength 3276800B
+param **.H_3.app.msgLength 3276800B
+param **.H_4.app.msgLength 3276800B
+param **.H_5.app.msgLength 3276800B
+param **.H_6.app.msgLength 3276800B
+param **.H_7.app.msgLength 3276800B
+param **.H_8.app.msgLength 3276800B
+param **.H_9.app.msgLength 3276800B
+param **.ISWDelay 50ns
+param **.L_**.fdbsVecFile "\"demo_victim.fdbs\""
+param **.L_1**.fdbIndex 4
+param **.L_2**.fdbIndex 5
+param **.L_3**.fdbIndex 6
+param **.L_4**.fdbIndex 7
+param **.S_**.fdbsVecFile "\"demo_victim.fdbs\""
+param **.S_1**.fdbIndex 8
+param **.S_2**.fdbIndex 9
+param **.T_**.fdbsVecFile "\"demo_victim.fdbs\""
+param **.T_1**.fdbIndex 0
+param **.T_2**.fdbIndex 1
+param **.T_3**.fdbIndex 2
+param **.T_4**.fdbIndex 3
+param **.VSWDelay 50ns
+param **.app.dstSeqVecFile "\"\""
+param **.app.dstSeqVecIdx 0
+param **.dstMode "\"param\""
+param **.flit2FlitGap 0.001ns
+param **.flitSize 2048B
+param **.genDlyPerByte 0.25ns
+param **.ibuf.lossyMode false
+param **.maxContPkts 10
+param **.maxQueuedPerVL 10
+param **.maxVL 0
+param **.msg2msgGap 1ns
+param **.msgLenMode "\"param\""
+param **.msgLenProb "\"1 1 1 1\""
+param **.msgLenSet "\"4096 4096 4096\""
+param **.msgMtuLen 2048B
+param **.msgSQ 0
+param **.obuf.credMinTime 50us
+param **.obuf.width 4
+param **.on_cc 0
+param **.on_throughput_gen 0
+param **.on_throughput_obuf 1
+param **.pkt2PktGap 0.001ns
+param **.pktFwdType "\"Pktfwd\""
+param **.pktfwd.ARAdaptThd 4
+param **.pktfwd.AdaptMode "\"none\""
+param **.pktfwd.GreedyRandSize 3
+param **.pktfwd.LIDBindTime 2us
+param **.pktfwd.OPSelAlgo "\"greedy\""
+param **.pktfwd.OPSelOffsetByDLID 0
+param **.pktfwd.TQBusy1Thd 20
+param **.pktfwd.TQBusy2Thd 40
+param **.pktfwd.TQBusy3Thd 80
+param **.pktfwd.statRepTime 10us
+param **.popDlyPerByte 0.25ns
+param **.sink.hiccupDelay 10000us
+param **.sink.hiccupDuration 0.001us
+param **.sink.repFirstPackets 0
+param **.speed 10Gbps
+param **.startStatCol 200us
+param **.timeStep_us 200us
+param **.vlarb.highVLArbEntries "\"0:1 1:20 2:40 3:80\""
+param **.vlarb.lowVLArbEntries "\"0:1 1:20 2:40 3:80\""
+param **.vlarb.useFCFSRQArb false
+param **.vlarb.vlHighLimit 16
+param **.vlarb.width 4
+param **.width 4
+param **H_**.ibuf.maxStatic* 200
+param **H_**.obuf.size 78
+param **H_**.vlarb.busWidth 16B
+param **H_**.vlarb.coreFreq 200MHz
+param **H_1.app.startTime 0
+param **H_2**.dstLid 0
+param **H_2.app.startTime 0
+param **H_3**.dstLid 1
+param **H_3.app.startTime 0
+param **H_4**.dstLid 1
+param **H_4.app.startTime 0
+param **H_5**.dstLid 1
+param **H_5.app.startTime 0
+param **H_6**.dstLid 1
+param **H_6.app.startTime 0
+param **H_7**.dstLid 0
+param **H_7.app.startTime 0
+param **H_8**.dstLid 0
+param **H_8.app.startTime 0
+param **H_9**.dstLid 8
+param **H_9.app.startTime 0
+param **L_**.obuf.size 100
+param **L_**.port[*].ibuf.maxStatic* 100
+param **L_**.vlarb.busWidth 24B
+param **L_**.vlarb.coreFreq 250MHz
+param **SW**.obuf.size 100
+param **SW**.vlarb.busWidth 24B
+param **SW**.vlarb.coreFreq 250MHz
+param **S_**.obuf.size 100
+param **S_**.port[*].ibuf.maxStatic* 100
+param **S_**.vlarb.busWidth 24B
+param **S_**.vlarb.coreFreq 250MHz
+param **T_**.obuf.size 100
+param **T_**.port[*].ibuf.maxStatic* 100
+param **T_**.vlarb.busWidth 24B
+param **T_**.vlarb.coreFreq 250MHz
+param **ibuf.maxBeingSent 1
+param **ibuf.totalBufferSize 1000
+
+scalar demo_victim_network.H_1.gen 	"generate BECN" 	0
+scalar demo_victim_network.H_1.gen 	"sent BECN" 	0
+scalar demo_victim_network.H_1.sink 	"Time last packet consumed:" 	0.1999985362
+statistic demo_victim_network.H_1.sink 	"Waiting time statistics"
+field count 121932
+field mean 0.0018814787566053
+field stddev 0.00011310669520738
+field sum 229.4124677504
+field sqrsum 0.43319456303628
+field min 0.0001766984
+field max 0.001930628
+statistic demo_victim_network.H_1.sink 	"Packet Fabric Time"
+field count 121932
+field mean 0.0018814787566053
+field stddev 0.00011310669520738
+field sum 229.4124677504
+field sqrsum 0.43319456303628
+field min 0.0001766984
+field max 0.001930628
+bin	-INF	0
+bin	0	0
+bin	9.79652e-006	0
+bin	1.959304e-005	0
+bin	2.938956e-005	0
+bin	3.918608e-005	0
+bin	4.89826e-005	0
+bin	5.877912e-005	0
+bin	6.857564e-005	0
+bin	7.837216e-005	0
+bin	8.816868e-005	0
+bin	9.79652e-005	0
+bin	0.00010776172	0
+bin	0.00011755824	0
+bin	0.00012735476	0
+bin	0.00013715128	0
+bin	0.0001469478	0
+bin	0.00015674432	0
+bin	0.00016654084	0
+bin	0.00017633736	6
+bin	0.00018613388	6
+bin	0.0001959304	7
+bin	0.00020572692	7
+bin	0.00021552344	6
+bin	0.00022531996	7
+bin	0.00023511648	6
+bin	0.000244913	7
+bin	0.00025470952	7
+bin	0.00026450604	6
+bin	0.00027430256	7
+bin	0.00028409908	6
+bin	0.0002938956	121854
+statistic demo_victim_network.H_1.sink 	Msg-Network-Latency
+field count 76
+field mean 0.012277791536842
+field stddev 0.00041338132456857
+field sum 0.9331121568
+field sqrsum 0.011469372850646
+field min 0.0104578888
+field max 0.0124099912
+bin	-INF	0
+bin	0.0094818376	0
+bin	0.00961197776	0
+bin	0.00974211792	0
+bin	0.00987225808	0
+bin	0.01000239824	0
+bin	0.0101325384	0
+bin	0.01026267856	0
+bin	0.01039281872	2
+bin	0.01052295888	2
+bin	0.01065309904	0
+bin	0.0107832392	0
+bin	0.01091337936	0
+bin	0.01104351952	0
+bin	0.01117365968	0
+bin	0.01130379984	0
+bin	0.01143394	0
+bin	0.01156408016	0
+bin	0.01169422032	0
+bin	0.01182436048	0
+bin	0.01195450064	0
+bin	0.0120846408	0
+bin	0.01221478096	6
+bin	0.01234492112	66
+bin	0.01247506128	0
+bin	0.01260520144	0
+bin	0.0127353416	0
+bin	0.01286548176	0
+bin	0.01299562192	0
+bin	0.01312576208	0
+bin	0.01325590224	0
+bin	0.0133860424	0
+statistic demo_victim_network.H_1.sink 	Msg-First2First-Network-Latency
+field count 76
+field mean 0.012277791536842
+field stddev 0.00041338132456851
+field sum 0.9331121568
+field sqrsum 0.011469372850646
+field min 0.0104578888
+field max 0.0124099912
+bin	-INF	0
+bin	0.0094818376	0
+bin	0.00961197776	0
+bin	0.00974211792	0
+bin	0.00987225808	0
+bin	0.01000239824	0
+bin	0.0101325384	0
+bin	0.01026267856	0
+bin	0.01039281872	2
+bin	0.01052295888	2
+bin	0.01065309904	0
+bin	0.0107832392	0
+bin	0.01091337936	0
+bin	0.01104351952	0
+bin	0.01117365968	0
+bin	0.01130379984	0
+bin	0.01143394	0
+bin	0.01156408016	0
+bin	0.01169422032	0
+bin	0.01182436048	0
+bin	0.01195450064	0
+bin	0.0120846408	0
+bin	0.01221478096	6
+bin	0.01234492112	66
+bin	0.01247506128	0
+bin	0.01260520144	0
+bin	0.0127353416	0
+bin	0.01286548176	0
+bin	0.01299562192	0
+bin	0.01312576208	0
+bin	0.01325590224	0
+bin	0.0133860424	0
+statistic demo_victim_network.H_1.sink 	Enough-Pkts-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_1.sink 	Last-to-Enough-Pkt-Arrival
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_1.sink 	Sink-BW-MBps 	1249.8437637638
+scalar demo_victim_network.H_1.sink 	VL-0-total-flits 	122020
+statistic demo_victim_network.H_1.sink 	OOO-Window-Pkts
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_1.sink 	OO-IO-Packets-Ratio 	0
+scalar demo_victim_network.H_1.sink 	Num-SRCs 	4
+scalar demo_victim_network.H_1.sink 	Received-BECN 	0
+scalar demo_victim_network.H_1.sink 	Received-FECN 	0
+statistic demo_victim_network.H_1.obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_1.ibuf 	marknum 	0
+scalar demo_victim_network.H_1.ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.H_1.ibuf 	Received-FECN-ibuf 	0
+scalar demo_victim_network.H_2.gen 	"generate BECN" 	0
+scalar demo_victim_network.H_2.gen 	"sent BECN" 	0
+scalar demo_victim_network.H_2.sink 	"Time last packet consumed:" 	0
+statistic demo_victim_network.H_2.sink 	"Waiting time statistics"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+statistic demo_victim_network.H_2.sink 	"Packet Fabric Time"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+bin	0.53333333333333	0
+bin	0.56666666666667	0
+bin	0.6	0
+bin	0.63333333333333	0
+bin	0.66666666666667	0
+bin	0.7	0
+bin	0.73333333333333	0
+bin	0.76666666666667	0
+bin	0.8	0
+bin	0.83333333333333	0
+bin	0.86666666666667	0
+bin	0.9	0
+bin	0.93333333333333	0
+bin	0.96666666666667	0
+bin	1	0
+statistic demo_victim_network.H_2.sink 	Msg-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_2.sink 	Msg-First2First-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_2.sink 	Enough-Pkts-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_2.sink 	Last-to-Enough-Pkt-Arrival
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_2.sink 	Sink-BW-MBps 	0
+scalar demo_victim_network.H_2.sink 	VL-0-total-flits 	0
+statistic demo_victim_network.H_2.sink 	OOO-Window-Pkts
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_2.sink 	OO-IO-Packets-Ratio 	nan
+scalar demo_victim_network.H_2.sink 	Num-SRCs 	0
+scalar demo_victim_network.H_2.sink 	Received-BECN 	0
+scalar demo_victim_network.H_2.sink 	Received-FECN 	0
+statistic demo_victim_network.H_2.obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_2.ibuf 	marknum 	0
+scalar demo_victim_network.H_2.ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.H_2.ibuf 	Received-FECN-ibuf 	0
+scalar demo_victim_network.H_3.gen 	"generate BECN" 	0
+scalar demo_victim_network.H_3.gen 	"sent BECN" 	0
+scalar demo_victim_network.H_3.sink 	"Time last packet consumed:" 	0
+statistic demo_victim_network.H_3.sink 	"Waiting time statistics"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+statistic demo_victim_network.H_3.sink 	"Packet Fabric Time"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+bin	0.53333333333333	0
+bin	0.56666666666667	0
+bin	0.6	0
+bin	0.63333333333333	0
+bin	0.66666666666667	0
+bin	0.7	0
+bin	0.73333333333333	0
+bin	0.76666666666667	0
+bin	0.8	0
+bin	0.83333333333333	0
+bin	0.86666666666667	0
+bin	0.9	0
+bin	0.93333333333333	0
+bin	0.96666666666667	0
+bin	1	0
+statistic demo_victim_network.H_3.sink 	Msg-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_3.sink 	Msg-First2First-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_3.sink 	Enough-Pkts-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_3.sink 	Last-to-Enough-Pkt-Arrival
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_3.sink 	Sink-BW-MBps 	0
+scalar demo_victim_network.H_3.sink 	VL-0-total-flits 	0
+statistic demo_victim_network.H_3.sink 	OOO-Window-Pkts
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_3.sink 	OO-IO-Packets-Ratio 	nan
+scalar demo_victim_network.H_3.sink 	Num-SRCs 	0
+scalar demo_victim_network.H_3.sink 	Received-BECN 	0
+scalar demo_victim_network.H_3.sink 	Received-FECN 	0
+statistic demo_victim_network.H_3.obuf 	"Flits Sources"
+field count 30777
+field mean 3
+field stddev 0
+field sum 92331
+field sqrsum 276993
+field min 3
+field max 3
+scalar demo_victim_network.H_3.ibuf 	marknum 	0
+scalar demo_victim_network.H_3.ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.H_3.ibuf 	Received-FECN-ibuf 	0
+scalar demo_victim_network.H_4.gen 	"generate BECN" 	0
+scalar demo_victim_network.H_4.gen 	"sent BECN" 	0
+scalar demo_victim_network.H_4.sink 	"Time last packet consumed:" 	0
+statistic demo_victim_network.H_4.sink 	"Waiting time statistics"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+statistic demo_victim_network.H_4.sink 	"Packet Fabric Time"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+bin	0.53333333333333	0
+bin	0.56666666666667	0
+bin	0.6	0
+bin	0.63333333333333	0
+bin	0.66666666666667	0
+bin	0.7	0
+bin	0.73333333333333	0
+bin	0.76666666666667	0
+bin	0.8	0
+bin	0.83333333333333	0
+bin	0.86666666666667	0
+bin	0.9	0
+bin	0.93333333333333	0
+bin	0.96666666666667	0
+bin	1	0
+statistic demo_victim_network.H_4.sink 	Msg-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_4.sink 	Msg-First2First-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_4.sink 	Enough-Pkts-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_4.sink 	Last-to-Enough-Pkt-Arrival
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_4.sink 	Sink-BW-MBps 	0
+scalar demo_victim_network.H_4.sink 	VL-0-total-flits 	0
+statistic demo_victim_network.H_4.sink 	OOO-Window-Pkts
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_4.sink 	OO-IO-Packets-Ratio 	nan
+scalar demo_victim_network.H_4.sink 	Num-SRCs 	0
+scalar demo_victim_network.H_4.sink 	Received-BECN 	0
+scalar demo_victim_network.H_4.sink 	Received-FECN 	0
+statistic demo_victim_network.H_4.obuf 	"Flits Sources"
+field count 30777
+field mean 4
+field stddev 0
+field sum 123108
+field sqrsum 492432
+field min 4
+field max 4
+scalar demo_victim_network.H_4.ibuf 	marknum 	0
+scalar demo_victim_network.H_4.ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.H_4.ibuf 	Received-FECN-ibuf 	0
+scalar demo_victim_network.H_5.gen 	"generate BECN" 	0
+scalar demo_victim_network.H_5.gen 	"sent BECN" 	0
+scalar demo_victim_network.H_5.sink 	"Time last packet consumed:" 	0
+statistic demo_victim_network.H_5.sink 	"Waiting time statistics"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+statistic demo_victim_network.H_5.sink 	"Packet Fabric Time"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+bin	0.53333333333333	0
+bin	0.56666666666667	0
+bin	0.6	0
+bin	0.63333333333333	0
+bin	0.66666666666667	0
+bin	0.7	0
+bin	0.73333333333333	0
+bin	0.76666666666667	0
+bin	0.8	0
+bin	0.83333333333333	0
+bin	0.86666666666667	0
+bin	0.9	0
+bin	0.93333333333333	0
+bin	0.96666666666667	0
+bin	1	0
+statistic demo_victim_network.H_5.sink 	Msg-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_5.sink 	Msg-First2First-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_5.sink 	Enough-Pkts-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_5.sink 	Last-to-Enough-Pkt-Arrival
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_5.sink 	Sink-BW-MBps 	0
+scalar demo_victim_network.H_5.sink 	VL-0-total-flits 	0
+statistic demo_victim_network.H_5.sink 	OOO-Window-Pkts
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_5.sink 	OO-IO-Packets-Ratio 	nan
+scalar demo_victim_network.H_5.sink 	Num-SRCs 	0
+scalar demo_victim_network.H_5.sink 	Received-BECN 	0
+scalar demo_victim_network.H_5.sink 	Received-FECN 	0
+statistic demo_victim_network.H_5.obuf 	"Flits Sources"
+field count 30805
+field mean 5
+field stddev 0
+field sum 154025
+field sqrsum 770125
+field min 5
+field max 5
+scalar demo_victim_network.H_5.ibuf 	marknum 	0
+scalar demo_victim_network.H_5.ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.H_5.ibuf 	Received-FECN-ibuf 	0
+scalar demo_victim_network.H_6.gen 	"generate BECN" 	0
+scalar demo_victim_network.H_6.gen 	"sent BECN" 	0
+scalar demo_victim_network.H_6.sink 	"Time last packet consumed:" 	0
+statistic demo_victim_network.H_6.sink 	"Waiting time statistics"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+statistic demo_victim_network.H_6.sink 	"Packet Fabric Time"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+bin	0.53333333333333	0
+bin	0.56666666666667	0
+bin	0.6	0
+bin	0.63333333333333	0
+bin	0.66666666666667	0
+bin	0.7	0
+bin	0.73333333333333	0
+bin	0.76666666666667	0
+bin	0.8	0
+bin	0.83333333333333	0
+bin	0.86666666666667	0
+bin	0.9	0
+bin	0.93333333333333	0
+bin	0.96666666666667	0
+bin	1	0
+statistic demo_victim_network.H_6.sink 	Msg-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_6.sink 	Msg-First2First-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_6.sink 	Enough-Pkts-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_6.sink 	Last-to-Enough-Pkt-Arrival
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_6.sink 	Sink-BW-MBps 	0
+scalar demo_victim_network.H_6.sink 	VL-0-total-flits 	0
+statistic demo_victim_network.H_6.sink 	OOO-Window-Pkts
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_6.sink 	OO-IO-Packets-Ratio 	nan
+scalar demo_victim_network.H_6.sink 	Num-SRCs 	0
+scalar demo_victim_network.H_6.sink 	Received-BECN 	0
+scalar demo_victim_network.H_6.sink 	Received-FECN 	0
+statistic demo_victim_network.H_6.obuf 	"Flits Sources"
+field count 30805
+field mean 6
+field stddev 0
+field sum 184830
+field sqrsum 1108980
+field min 6
+field max 6
+scalar demo_victim_network.H_6.ibuf 	marknum 	0
+scalar demo_victim_network.H_6.ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.H_6.ibuf 	Received-FECN-ibuf 	0
+scalar demo_victim_network.H_7.gen 	"generate BECN" 	0
+scalar demo_victim_network.H_7.gen 	"sent BECN" 	0
+scalar demo_victim_network.H_7.sink 	"Time last packet consumed:" 	0
+statistic demo_victim_network.H_7.sink 	"Waiting time statistics"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+statistic demo_victim_network.H_7.sink 	"Packet Fabric Time"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+bin	0.53333333333333	0
+bin	0.56666666666667	0
+bin	0.6	0
+bin	0.63333333333333	0
+bin	0.66666666666667	0
+bin	0.7	0
+bin	0.73333333333333	0
+bin	0.76666666666667	0
+bin	0.8	0
+bin	0.83333333333333	0
+bin	0.86666666666667	0
+bin	0.9	0
+bin	0.93333333333333	0
+bin	0.96666666666667	0
+bin	1	0
+statistic demo_victim_network.H_7.sink 	Msg-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_7.sink 	Msg-First2First-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_7.sink 	Enough-Pkts-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_7.sink 	Last-to-Enough-Pkt-Arrival
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_7.sink 	Sink-BW-MBps 	0
+scalar demo_victim_network.H_7.sink 	VL-0-total-flits 	0
+statistic demo_victim_network.H_7.sink 	OOO-Window-Pkts
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_7.sink 	OO-IO-Packets-Ratio 	nan
+scalar demo_victim_network.H_7.sink 	Num-SRCs 	0
+scalar demo_victim_network.H_7.sink 	Received-BECN 	0
+scalar demo_victim_network.H_7.sink 	Received-FECN 	0
+statistic demo_victim_network.H_7.obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_7.ibuf 	marknum 	0
+scalar demo_victim_network.H_7.ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.H_7.ibuf 	Received-FECN-ibuf 	0
+scalar demo_victim_network.H_8.gen 	"generate BECN" 	0
+scalar demo_victim_network.H_8.gen 	"sent BECN" 	0
+scalar demo_victim_network.H_8.sink 	"Time last packet consumed:" 	0.1999974586
+statistic demo_victim_network.H_8.sink 	"Waiting time statistics"
+field count 30648
+field mean 0.00064947613743149
+field stddev 2.3307434238126e-005
+field sum 19.90514466
+field sqrsum 0.012944565037525
+field min 0.0001730424
+field max 0.000677912
+statistic demo_victim_network.H_8.sink 	"Packet Fabric Time"
+field count 30648
+field mean 0.00064947613743149
+field stddev 2.3307434238126e-005
+field sum 19.90514466
+field sqrsum 0.012944565037525
+field min 0.0001730424
+field max 0.000677912
+bin	-INF	0
+bin	0	0
+bin	1.057628e-005	0
+bin	2.115256e-005	0
+bin	3.172884e-005	0
+bin	4.230512e-005	0
+bin	5.28814e-005	0
+bin	6.345768e-005	0
+bin	7.403396e-005	0
+bin	8.461024e-005	0
+bin	9.518652e-005	0
+bin	0.0001057628	0
+bin	0.00011633908	0
+bin	0.00012691536	0
+bin	0.00013749164	0
+bin	0.00014806792	0
+bin	0.0001586442	0
+bin	0.00016922048	2
+bin	0.00017979676	3
+bin	0.00019037304	2
+bin	0.00020094932	3
+bin	0.0002115256	2
+bin	0.00022210188	2
+bin	0.00023267816	3
+bin	0.00024325444	2
+bin	0.00025383072	3
+bin	0.000264407	2
+bin	0.00027498328	3
+bin	0.00028555956	2
+bin	0.00029613584	3
+bin	0.00030671212	2
+bin	0.0003172884	30614
+statistic demo_victim_network.H_8.sink 	Msg-Network-Latency
+field count 19
+field mean 0.011041193852632
+field stddev 0.00039888648587155
+field sum 0.2097826832
+field sqrsum 0.0023191152598514
+field min 0.0093947952
+field max 0.0111486992
+bin	-INF	0
+bin	0.0085178432	0
+bin	0.0086347701333333	0
+bin	0.0087516970666667	0
+bin	0.008868624	0
+bin	0.0089855509333333	0
+bin	0.0091024778666667	0
+bin	0.0092194048	0
+bin	0.0093363317333333	1
+bin	0.0094532586666667	0
+bin	0.0095701856	0
+bin	0.0096871125333333	0
+bin	0.0098040394666667	0
+bin	0.0099209664	0
+bin	0.010037893333333	0
+bin	0.010154820266667	0
+bin	0.0102717472	0
+bin	0.010388674133333	0
+bin	0.010505601066667	0
+bin	0.010622528	0
+bin	0.010739454933333	0
+bin	0.010856381866667	0
+bin	0.0109733088	0
+bin	0.011090235733333	18
+bin	0.011207162666667	0
+bin	0.0113240896	0
+bin	0.011441016533333	0
+bin	0.011557943466667	0
+bin	0.0116748704	0
+bin	0.011791797333333	0
+bin	0.011908724266667	0
+bin	0.0120256512	0
+statistic demo_victim_network.H_8.sink 	Msg-First2First-Network-Latency
+field count 19
+field mean 0.011041193852632
+field stddev 0.00039888648587146
+field sum 0.2097826832
+field sqrsum 0.0023191152598514
+field min 0.0093947952
+field max 0.0111486992
+bin	-INF	0
+bin	0.0085178432	0
+bin	0.0086347701333333	0
+bin	0.0087516970666667	0
+bin	0.008868624	0
+bin	0.0089855509333333	0
+bin	0.0091024778666667	0
+bin	0.0092194048	0
+bin	0.0093363317333333	1
+bin	0.0094532586666667	0
+bin	0.0095701856	0
+bin	0.0096871125333333	0
+bin	0.0098040394666667	0
+bin	0.0099209664	0
+bin	0.010037893333333	0
+bin	0.010154820266667	0
+bin	0.0102717472	0
+bin	0.010388674133333	0
+bin	0.010505601066667	0
+bin	0.010622528	0
+bin	0.010739454933333	0
+bin	0.010856381866667	0
+bin	0.0109733088	0
+bin	0.011090235733333	18
+bin	0.011207162666667	0
+bin	0.0113240896	0
+bin	0.011441016533333	0
+bin	0.011557943466667	0
+bin	0.0116748704	0
+bin	0.011791797333333	0
+bin	0.011908724266667	0
+bin	0.0120256512	0
+statistic demo_victim_network.H_8.sink 	Enough-Pkts-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_8.sink 	Last-to-Enough-Pkt-Arrival
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_8.sink 	Sink-BW-MBps 	314.14966966967
+scalar demo_victim_network.H_8.sink 	VL-0-total-flits 	30680
+statistic demo_victim_network.H_8.sink 	OOO-Window-Pkts
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_8.sink 	OO-IO-Packets-Ratio 	0
+scalar demo_victim_network.H_8.sink 	Num-SRCs 	1
+scalar demo_victim_network.H_8.sink 	Received-BECN 	0
+scalar demo_victim_network.H_8.sink 	Received-FECN 	0
+statistic demo_victim_network.H_8.obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_8.ibuf 	marknum 	0
+scalar demo_victim_network.H_8.ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.H_8.ibuf 	Received-FECN-ibuf 	0
+scalar demo_victim_network.H_9.gen 	"generate BECN" 	0
+scalar demo_victim_network.H_9.gen 	"sent BECN" 	0
+scalar demo_victim_network.H_9.sink 	"Time last packet consumed:" 	0
+statistic demo_victim_network.H_9.sink 	"Waiting time statistics"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+statistic demo_victim_network.H_9.sink 	"Packet Fabric Time"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+bin	0.53333333333333	0
+bin	0.56666666666667	0
+bin	0.6	0
+bin	0.63333333333333	0
+bin	0.66666666666667	0
+bin	0.7	0
+bin	0.73333333333333	0
+bin	0.76666666666667	0
+bin	0.8	0
+bin	0.83333333333333	0
+bin	0.86666666666667	0
+bin	0.9	0
+bin	0.93333333333333	0
+bin	0.96666666666667	0
+bin	1	0
+statistic demo_victim_network.H_9.sink 	Msg-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_9.sink 	Msg-First2First-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_9.sink 	Enough-Pkts-Network-Latency
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic demo_victim_network.H_9.sink 	Last-to-Enough-Pkt-Arrival
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_9.sink 	Sink-BW-MBps 	0
+scalar demo_victim_network.H_9.sink 	VL-0-total-flits 	0
+statistic demo_victim_network.H_9.sink 	OOO-Window-Pkts
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.H_9.sink 	OO-IO-Packets-Ratio 	nan
+scalar demo_victim_network.H_9.sink 	Num-SRCs 	0
+scalar demo_victim_network.H_9.sink 	Received-BECN 	0
+scalar demo_victim_network.H_9.sink 	Received-FECN 	0
+statistic demo_victim_network.H_9.obuf 	"Flits Sources"
+field count 30776
+field mean 9
+field stddev 0
+field sum 276984
+field sqrsum 2492856
+field min 9
+field max 9
+scalar demo_victim_network.H_9.ibuf 	marknum 	0
+scalar demo_victim_network.H_9.ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.H_9.ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_1.port[0].obuf 	"Flits Sources"
+field count 122026
+field mean 4.5003851638175
+field stddev 1.1180385035633
+field sum 549164
+field sqrsum 2623982
+field min 3
+field max 6
+scalar demo_victim_network.T_1.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.T_1.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_1.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_1.port[1].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_1.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.T_1.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_1.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_1.port[2].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_1.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.T_1.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_1.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_2.port[0].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_2.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.T_2.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_2.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_2.port[1].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_2.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.T_2.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_2.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_2.port[2].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_2.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.T_2.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_2.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_3.port[0].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_3.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.T_3.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_3.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_3.port[1].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_3.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.T_3.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_3.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_3.port[2].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_3.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.T_3.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_3.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_3.port[3].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_3.port[3].ibuf 	marknum 	0
+scalar demo_victim_network.T_3.port[3].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_3.port[3].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_3.port[4].obuf 	"Flits Sources"
+field count 92053
+field mean 5.333307985617
+field stddev 2.6246805583843
+field sum 490947
+field sqrsum 3252513
+field min 3
+field max 9
+scalar demo_victim_network.T_3.port[4].ibuf 	marknum 	0
+scalar demo_victim_network.T_3.port[4].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_3.port[4].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_3.port[5].obuf 	"Flits Sources"
+field count 61426
+field mean 5.5
+field stddev 0.50000406998751
+field sum 337843
+field sqrsum 1873493
+field min 5
+field max 6
+scalar demo_victim_network.T_3.port[5].ibuf 	marknum 	0
+scalar demo_victim_network.T_3.port[5].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_3.port[5].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_3.port[6].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_3.port[6].ibuf 	marknum 	0
+scalar demo_victim_network.T_3.port[6].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_3.port[6].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_4.port[0].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_4.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.T_4.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_4.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_4.port[1].obuf 	"Flits Sources"
+field count 30682
+field mean 9
+field stddev 0
+field sum 276138
+field sqrsum 2485242
+field min 9
+field max 9
+scalar demo_victim_network.T_4.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.T_4.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_4.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_4.port[2].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_4.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.T_4.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_4.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.T_4.port[3].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.T_4.port[3].ibuf 	marknum 	0
+scalar demo_victim_network.T_4.port[3].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.T_4.port[3].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_1.port[0].obuf 	"Flits Sources"
+field count 61123
+field mean 3.4999918197732
+field stddev 0.50000409009665
+field sum 213930
+field sqrsum 764034
+field min 3
+field max 4
+scalar demo_victim_network.L_1.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.L_1.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_1.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_1.port[1].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_1.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.L_1.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_1.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_1.port[2].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_1.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.L_1.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_1.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_1.port[3].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_1.port[3].ibuf 	marknum 	0
+scalar demo_victim_network.L_1.port[3].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_1.port[3].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_2.port[0].obuf 	"Flits Sources"
+field count 61171
+field mean 5.4999918261921
+field stddev 0.50000408688722
+field sum 336440
+field sqrsum 1865710
+field min 5
+field max 6
+scalar demo_victim_network.L_2.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.L_2.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_2.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_2.port[1].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_2.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.L_2.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_2.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_2.port[2].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_2.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.L_2.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_2.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_2.port[3].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_2.port[3].ibuf 	marknum 	0
+scalar demo_victim_network.L_2.port[3].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_2.port[3].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_3.port[0].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_3.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.L_3.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_3.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_3.port[1].obuf 	"Flits Sources"
+field count 30683
+field mean 9
+field stddev 0
+field sum 276147
+field sqrsum 2485323
+field min 9
+field max 9
+scalar demo_victim_network.L_3.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.L_3.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_3.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_3.port[2].obuf 	"Flits Sources"
+field count 61292
+field mean 3.5
+field stddev 0.50000407888565
+field sum 214522
+field sqrsum 766150
+field min 3
+field max 4
+scalar demo_victim_network.L_3.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.L_3.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_3.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_3.port[3].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_3.port[3].ibuf 	marknum 	0
+scalar demo_victim_network.L_3.port[3].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_3.port[3].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_4.port[0].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_4.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.L_4.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_4.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_4.port[1].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_4.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.L_4.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_4.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_4.port[2].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.L_4.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.L_4.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_4.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.L_4.port[3].obuf 	"Flits Sources"
+field count 61341
+field mean 5.499991848845
+field stddev 0.5000040755609
+field sum 337375
+field sqrsum 1870895
+field min 5
+field max 6
+scalar demo_victim_network.L_4.port[3].ibuf 	marknum 	0
+scalar demo_victim_network.L_4.port[3].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.L_4.port[3].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.S_1.port[0].obuf 	"Flits Sources"
+field count 61208
+field mean 3.5
+field stddev 0.50000408448346
+field sum 214228
+field sqrsum 765100
+field min 3
+field max 4
+scalar demo_victim_network.S_1.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.S_1.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.S_1.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.S_1.port[1].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.S_1.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.S_1.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.S_1.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.S_1.port[2].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.S_1.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.S_1.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.S_1.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.S_1.port[3].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.S_1.port[3].ibuf 	marknum 	0
+scalar demo_victim_network.S_1.port[3].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.S_1.port[3].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.S_2.port[0].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.S_2.port[0].ibuf 	marknum 	0
+scalar demo_victim_network.S_2.port[0].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.S_2.port[0].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.S_2.port[1].obuf 	"Flits Sources"
+field count 61256
+field mean 5.5
+field stddev 0.50000408128283
+field sum 336908
+field sqrsum 1868308
+field min 5
+field max 6
+scalar demo_victim_network.S_2.port[1].ibuf 	marknum 	0
+scalar demo_victim_network.S_2.port[1].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.S_2.port[1].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.S_2.port[2].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.S_2.port[2].ibuf 	marknum 	0
+scalar demo_victim_network.S_2.port[2].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.S_2.port[2].ibuf 	Received-FECN-ibuf 	0
+statistic demo_victim_network.S_2.port[3].obuf 	"Flits Sources"
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+scalar demo_victim_network.S_2.port[3].ibuf 	marknum 	0
+scalar demo_victim_network.S_2.port[3].ibuf 	Received-BECN-ibuf 	0
+scalar demo_victim_network.S_2.port[3].ibuf 	Received-FECN-ibuf 	0

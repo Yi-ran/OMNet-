@@ -1,0 +1,202 @@
+file 1794438 1579159086                                         
+version 2
+run General-0-20200116-15:17:58-45308
+attr configname General
+attr datetime 20200116-15:17:58
+attr experiment General
+attr inifile demo_final.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network ib_model.examples.demo.demo_network
+attr processid 45308
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.CCT_Timer 30us
+param **.H_1*.**.endTime 0.011
+param **.H_1*.**.startTime 0.01
+param **.H_1*.app.dstLid 5
+param **.H_1*.app.msg2msgGap 10000ns
+param **.H_1*.app.msgLength 4096B
+param **.H_1*.app.msgNum 200
+param **.H_1.**.on_throughput_gen 1
+param **.H_1.**.on_throughput_obuf 1
+param **.H_1.app.dstLid 3
+param **.H_1.app.msgLength 4194304*20B
+param **.H_1.app.msgNum 1000
+param **.H_10.**.endTime 0.011
+param **.H_10.**.startTime 0.01
+param **.H_10.app.dstLid 5
+param **.H_10.app.msgLength 4096B
+param **.H_10.app.msgNum 200
+param **.H_2.**.on_throughput_gen 1
+param **.H_2.**.on_throughput_obuf 1
+param **.H_2.app.msgLength 4194304*20B
+param **.H_2.app.msgNum 1000
+param **.H_3.app.msgLength 4194304B
+param **.H_3.app.msgNum 1
+param **.H_4.app.msg2msgGap 10000ns
+param **.H_4.app.msgLength 4096B
+param **.H_4.app.msgNum 200
+param **.H_5.app.msgLength 4194304B
+param **.H_5.app.msgNum 1
+param **.H_6.app.msg2msgGap 10000ns
+param **.H_6.app.msgLength 4096B
+param **.H_6.app.msgNum 200
+param **.H_7.app.msg2msgGap 10000ns
+param **.H_7.app.msgLength 4096B
+param **.H_7.app.msgNum 200
+param **.H_8.app.msg2msgGap 10000ns
+param **.H_8.app.msgLength 4096B
+param **.H_8.app.msgNum 200
+param **.H_9.app.msg2msgGap 10000ns
+param **.H_9.app.msgLength 4096B
+param **.H_9.app.msgNum 200
+param **.ISWDelay 50ns
+param **.SW**.fdbsVecFile "\"3h_2s.fdbs\""
+param **.SW_1**.fdbIndex 0
+param **.SW_1.port[3].**.on_throughput_obuf 1
+param **.SW_2**.fdbIndex 1
+param **.SW_2.port[2].**.on_throughput_obuf 1
+param **.VSWDelay 50ns
+param **.app.dstSeqVecFile "\"\""
+param **.app.dstSeqVecIdx 0
+param **.dstMode "\"param\""
+param **.flit2FlitGap 0.001ns
+param **.flitSize 2048B
+param **.genDlyPerByte 0.25ns
+param **.ibuf.lossyMode false
+param **.maxContPkts 10
+param **.maxQueuedPerVL 10
+param **.maxVL 0
+param **.msgLenMode "\"param\""
+param **.msgLenProb "\"1 1 1 1\""
+param **.msgLenSet "\"4096 4096 4096\""
+param **.msgMtuLen 2048B
+param **.msgSQ 0
+param **.obuf.credMinTime 4.096us
+param **.obuf.width 4
+param **.on_cc 0
+param **.on_newcc 0
+param **.pkt2PktGap 0.001ns
+param **.pktFwdType "\"Pktfwd\""
+param **.pktfwd.ARAdaptThd 4
+param **.pktfwd.AdaptMode "\"none\""
+param **.pktfwd.GreedyRandSize 3
+param **.pktfwd.LIDBindTime 2us
+param **.pktfwd.OPSelAlgo "\"greedy\""
+param **.pktfwd.OPSelOffsetByDLID 0
+param **.pktfwd.TQBusy1Thd 20
+param **.pktfwd.TQBusy2Thd 40
+param **.pktfwd.TQBusy3Thd 80
+param **.pktfwd.statRepTime 10us
+param **.popDlyPerByte 0.25ns
+param **.sink.hiccupDelay 10000us
+param **.sink.hiccupDuration 0.001us
+param **.sink.repFirstPackets 0
+param **.speed 10Gbps
+param **.startStatCol 100us
+param **.timeStep_us 49us
+param **.vlarb.highVLArbEntries "\"0:1 1:20 2:40 3:80\""
+param **.vlarb.lowVLArbEntries "\"0:1 1:20 2:40 3:80\""
+param **.vlarb.markrate 1
+param **.vlarb.useFCFSRQArb false
+param **.vlarb.vlHighLimit 16
+param **.vlarb.width 4
+param **.width 4
+param **H_**.ibuf.maxStatic* 32
+param **H_**.obuf.size 5
+param **H_**.vlarb.busWidth 16B
+param **H_**.vlarb.coreFreq 1000MHz
+param **H_1.**.endTime 0.04
+param **H_1.**.startTime 0
+param **H_2**.dstLid 5
+param **H_2.**.endTime 0.04
+param **H_2.**.startTime 0
+param **H_3**.dstLid 0
+param **H_3.**.endTime 1
+param **H_3.**.startTime 0
+param **H_4**.dstLid 5
+param **H_4.**.endTime 0.011
+param **H_4.**.startTime 0.01
+param **H_5**.dstLid 0
+param **H_5.**.endTime 1
+param **H_5.**.startTime 0
+param **H_6**.dstLid 5
+param **H_6.**.endTime 0.011
+param **H_6.**.startTime 0.01
+param **H_7**.dstLid 5
+param **H_7.**.endTime 0.011
+param **H_7.**.startTime 0.01
+param **H_8**.dstLid 5
+param **H_8.**.endTime 0.011
+param **H_8.**.startTime 0.01
+param **H_9**.dstLid 5
+param **H_9.**.endTime 0.011
+param **H_9.**.startTime 0.01
+param **SW**.obuf.size 5
+param **SW**.port[*].ibuf.maxStatic* 32
+param **SW**.vlarb.busWidth 24B
+param **SW**.vlarb.coreFreq 1200MHz
+param **ibuf.maxBeingSent 1
+param **ibuf.totalBufferSize 1000
+
+vector 1 demo_network.H_1.app msgInfo ETV
+1	5912 9 1 1 0 0 1 0 0 0 0
+vector 26 demo_network.H_2.app msgInfo ETV
+26	43995 10 3 3 0 0 1 0 0 0 0
+vector 707 demo_network.SW_2.port[1].ibuf inputQueueLength ETV
+707	988581 781317 345 3926502 0.000000513 0.029999619 28205 0 60 1599029 90832845
+vector 491 demo_network.SW_1.port[1].ibuf inputQueueLength ETV
+491	211241 752723 354 3926286 0.000000613 0.029998991 28173 0 495 61442 26150852
+vector 112 demo_network.H_5.sink "sink throughput" ETV
+112	154572 24921 5253 3923223 0.000035713 0.029974713 612 1.6718367346939 26.080653061224 9412.1064489795 149960.3886097
+vector 62 demo_network.H_3.sink "sink throughput" ETV
+62	82691 24309 6761 3924538 0.000045957 0.029984957 612 2.0062040816327 16.049632653061 9408.7627755101 149635.71698778
+vector 3 demo_network.H_1.gen Throughput ETV
+3	5921 13838 7070 3924963 0.000049 0.029988 612 32 32 19584 626688
+vector 28 demo_network.H_2.gen Throughput ETV
+28	44005 14450 7071 3924964 0.000049 0.029988 612 32 32 19584 626688
+vector 14 demo_network.H_1.obuf Throughput-obuf ETV
+14	19759 24236 7072 3924965 0.000049001 0.029988001 612 2.0127346938776 22.750040816327 9429.8200816327 150317.14420474
+vector 39 demo_network.H_2.obuf Throughput-obuf ETV
+39	58455 24236 7073 3924966 0.000049001 0.029988001 612 1.6796734693878 29.105632653061 9436.5100408164 150658.24110738
+vector 512 demo_network.SW_1.port[3].obuf Throughput-obuf ETV
+512	963964 24617 7074 3924967 0.000049001 0.029988001 612 15.729632653061 32.11493877551 10248.560326531 178369.43864792
+vector 716 demo_network.SW_2.port[2].obuf Throughput-obuf ETV
+716	1769898 24540 7075 3924968 0.000049001 0.029988001 612 3.6924081632653 32.116244897959 18835.782530612 599573.25187677
+vector 76 demo_network.H_4.app msgInfo ETV
+76	107000 2184 1310507 1442358 0.01 0.010977793 82 0 81 3321 180441
+vector 126 demo_network.H_6.app msgInfo ETV
+126	179493 2266 1310508 1442359 0.01 0.010977793 82 0 81 3321 180441
+vector 151 demo_network.H_7.app msgInfo ETV
+151	181759 2266 1310509 1442360 0.01 0.010977793 82 0 81 3321 180441
+vector 176 demo_network.H_8.app msgInfo ETV
+176	184025 2269 1310510 1442881 0.01 0.010981889 82 0 81 3321 180441
+vector 201 demo_network.H_9.app msgInfo ETV
+201	186294 2269 1310511 1442882 0.01 0.010981889 82 0 81 3321 180441
+vector 226 demo_network.H_10.app msgInfo ETV
+226	188563 2269 1310512 1442883 0.01 0.010981889 82 0 81 3321 180441
+vector 251 demo_network.H_11.app msgInfo ETV
+251	190832 2269 1310513 1442884 0.01 0.010981889 82 0 81 3321 180441
+vector 276 demo_network.H_12.app msgInfo ETV
+276	193101 2269 1310514 1442885 0.01 0.010981889 82 0 81 3321 180441
+vector 301 demo_network.H_13.app msgInfo ETV
+301	195370 2269 1310515 1442886 0.01 0.010981889 82 0 81 3321 180441
+vector 326 demo_network.H_14.app msgInfo ETV
+326	197639 2269 1310516 1442887 0.01 0.010981889 82 0 81 3321 180441
+vector 351 demo_network.H_15.app msgInfo ETV
+351	199908 2269 1310517 1442888 0.01 0.010981889 82 0 81 3321 180441
+vector 376 demo_network.H_16.app msgInfo ETV
+376	202177 2266 1310518 1443411 0.01 0.010985985 82 0 81 3321 180441
+vector 401 demo_network.H_17.app msgInfo ETV
+401	204443 2266 1310519 1443412 0.01 0.010985985 82 0 81 3321 180441
+vector 426 demo_network.H_18.app msgInfo ETV
+426	206709 2266 1310520 1443413 0.01 0.010985985 82 0 81 3321 180441
+vector 451 demo_network.H_19.app msgInfo ETV
+451	208975 2266 1310521 1443414 0.01 0.010985985 82 0 81 3321 180441
+vector 111 demo_network.H_5.sink "Latency of each message" ETV
+111	109184 45388 1313930 1483713 0.010019301 0.011354225 1230 8.789e-06 0.000280174 0.25005523 6.0445567055454e-05
